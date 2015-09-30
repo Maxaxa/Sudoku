@@ -35,8 +35,8 @@ public class SudokuVerifier {
 	
 	public boolean verifyRule1(String candidateSolution) {
 		for (int i = 0; i<candidateSolution.length(); i++){
-			if(Character.isDigit(candidateSolution.charAt(i))){
-				return true;
+			if(!Character.isDigit(candidateSolution.charAt(i))){
+				return false;
 			}
 		int[] digits = solutionToString(candidateSolution);
 			
@@ -47,10 +47,8 @@ public class SudokuVerifier {
 				
 		}
 			return digitIsRight;
-			
-		
+		}
 		return false;
 	}
-	
 	
 }
