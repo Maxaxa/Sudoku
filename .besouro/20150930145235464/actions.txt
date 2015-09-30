@@ -159,3 +159,11 @@ FileOpenedAction 1443619381083 Game.java 2441 6 11 0
 FileOpenedAction 1443619407383 GildedRose.java 2524 9 25 0
 FileOpenedAction 1443619442278 Item.java 639 7 9 0
 EditAction 1443619929199 SudokuVerifier.java 866 5 10 0
+UnitTestCaseAction 1443619935700 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443619935700 TestSudokuVerifier.testVerifyStringLength_noSolution_returnTrue OK
+UnitTestCaseAction 1443619951098 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443619951099 TestSudokuVerifier FAIL
+RefactoringAction 1443620009402 TestSudokuVerifier.java ADD void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true()/2 METHOD
+RefactoringAction 1443620021912 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true()/2=>void so() METHOD
+RefactoringAction 1443620025420 TestSudokuVerifier.java REMOVE so() METHOD
+EditAction 1443620089870 SudokuVerifier.java 868 5 10 0
