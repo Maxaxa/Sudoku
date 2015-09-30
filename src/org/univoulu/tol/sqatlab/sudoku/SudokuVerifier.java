@@ -34,21 +34,21 @@ public class SudokuVerifier {
 	
 	
 	public boolean verifyRule1(String candidateSolution) {
+		boolean digitIsRight = false;
 		for (int i = 0; i<candidateSolution.length(); i++){
 			if(!Character.isDigit(candidateSolution.charAt(i))){
-				return false;
+				digitIsRight = false;
 			}
-		int[] digits = solutionToString(candidateSolution);
-			
-		boolean digitIsRight = true;
-			
-		for(int j: digits){
-			if(digits[j] <= 0 && digits[j] >= 10) digitIsRight = false;
-				
 		}
-			return digitIsRight;
+		if(digitIsRight){
+			int[] digits = solutionToString(candidateSolution);
+			
+			for(int j: digits){
+				if(digits[j] <= 0 && digits[j] >= 10) digitIsRight = false;
+					
+			}
 		}
-		return false;
+		return digitIsRight;
 	}
 	
 }
