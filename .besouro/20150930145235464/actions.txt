@@ -271,3 +271,4 @@ RefactoringAction 1443624649231 TestSudokuVerifier.java RENAME testRule2=>void t
 RefactoringAction 1443624683978 TestSudokuVerifier.java REMOVE testRule2() METHOD
 RefactoringAction 1443624767958 SudokuVerifier.java ADD boolean isDigitPositive(String, boolean) METHOD
 EditAction 1443624767962 SudokuVerifier.java 1459 6 15 0
+EditAction 1443624778665 TestSudokuVerifier.java 1542 7 7 6
