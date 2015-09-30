@@ -52,7 +52,7 @@ public class TestSudokuVerifier {
 	}
 	@Test
 	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false(){
-		int[] digits = verifier.solutionToString(negativSolution);
+		int[] digits = verifier.solutionToString(correctSolution);
 		for(int i: digits){	
 			System.out.println(digits[i]);
 		}
