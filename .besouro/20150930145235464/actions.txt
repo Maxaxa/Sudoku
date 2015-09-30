@@ -12,3 +12,6 @@ FileOpenedAction 1443614883335 Item.java 639 7 9 0
 FileOpenedAction 1443614896636 Game.java 2441 6 11 0
 EditAction 1443614931561 TestSudokuVerifier.java 364 1 2 1
 EditAction 1443614932563 SudokuVerifier.java 205 1 1 0
+UnitTestCaseAction 1443614936402 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443614936404 TestSudokuVerifier FAIL
+EditAction 1443614954207 SudokuVerifier.java 205 1 1 0
