@@ -58,5 +58,11 @@ public class SudokuVerifier {
 		}
 		return digitIsRight;
 	}
+
+
+	public Object verifyRule2(String correctSolution) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }

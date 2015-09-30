@@ -287,3 +287,4 @@ RefactoringAction 1443624910262 TestSudokuVerifier.java RENAME testVerfyRule=>vo
 RefactoringAction 1443624912267 TestSudokuVerifier.java RENAME testVerfyRule2=>void testVerfyRule2() METHOD
 RefactoringAction 1443624963476 SudokuVerifier.java ADD Object verifyRule2(String) METHOD
 EditAction 1443624971028 TestSudokuVerifier.java 1646 8 8 7
+EditAction 1443624971241 SudokuVerifier.java 1575 7 16 0
