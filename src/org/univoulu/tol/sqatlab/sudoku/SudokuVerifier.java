@@ -10,12 +10,13 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		// returns 1 if the candidate solution is correct
 		int checksum = 0;
-		if (verifyStringLength()) checksum = 1;
+		if (verifyStringLength(candidateSolution)) checksum = 1;
 		return checksum;
 			}
 
-	public boolean verifyStringLength() {
-		// returns 1 if length is correct
+	public boolean verifyStringLength(String candidateSolution) {
+		if(candidateSolution.length() == 81)
 		return true;
+		return false;
 	}
 }
