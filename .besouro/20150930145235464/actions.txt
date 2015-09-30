@@ -89,3 +89,42 @@ EditAction 1443617447041 TestSudokuVerifier.java 1102 5 5 4
 UnitTestCaseAction 1443617447886 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443617447886 TestSudokuVerifier OK
 EditAction 1443617764036 SudokuVerifier.java 529 3 6 0
+RefactoringAction 1443617843898 TestSudokuVerifier.java ADD void testVerifyStringLength_noSolution_returnTrue()/2 METHOD
+RefactoringAction 1443617872925 TestSudokuVerifier.java RENAME testVerifyStringLength_noSolution_returnTrue()/2=>void test FIELD
+RefactoringAction 1443617906452 TestSudokuVerifier.java RENAME test=>void testC FIELD
+RefactoringAction 1443617907457 TestSudokuVerifier.java RENAME testC=>void testCas FIELD
+RefactoringAction 1443617915969 TestSudokuVerifier.java RENAME testCas=>void test FIELD
+RefactoringAction 1443617918476 TestSudokuVerifier.java RENAME test=>void testC FIELD
+RefactoringAction 1443617919982 TestSudokuVerifier.java RENAME testC=>void test FIELD
+RefactoringAction 1443617921990 TestSudokuVerifier.java RENAME test=>void testCast FIELD
+RefactoringAction 1443617939505 TestSudokuVerifier.java RENAME testCast=>void testSolutionToString FIELD
+RefactoringAction 1443617942011 TestSudokuVerifier.java RENAME testSolutionToString=>void testSolutionToString() METHOD
+RefactoringAction 1443617965033 TestSudokuVerifier.java RENAME testSolutionToString()=>void testSolutionToString_() METHOD
+RefactoringAction 1443617970544 TestSudokuVerifier.java RENAME testSolutionToString_()=>void testSolutionToString_correctSolution() METHOD
+RefactoringAction 1443617971556 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution()=>void testSolutionToString_correctSolution_() METHOD
+RefactoringAction 1443617977227 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution_()=>void testSolutionToString_correctSolution_re() METHOD
+RefactoringAction 1443617978733 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution_re()=>void testSolutionToString_correctSolution_return() METHOD
+RefactoringAction 1443617980242 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution_return()=>void testSolutionToString_correctSolution_returnTyp() METHOD
+RefactoringAction 1443617981746 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution_returnTyp()=>void testSolutionToString_correctSolution_returnType() METHOD
+RefactoringAction 1443617983250 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution_returnType()=>void testSolutionToString_correctSolution_returnTypeInt() METHOD
+RefactoringAction 1443617998764 TestSudokuVerifier.java RENAME testSolutionToString_correctSolution_returnTypeInt()=>void testSolutionToString_correctSolutionString_returnTypeInt() METHOD
+RefactoringAction 1443618353400 TestSudokuVerifier.java RENAME testSolutionToString_correctSolutionString_returnTypeInt()=><initializer /1> null
+RefactoringAction 1443618378425 TestSudokuVerifier.java RENAME <initializer /1>=>void ver() METHOD
+RefactoringAction 1443618379935 TestSudokuVerifier.java RENAME ver()=><initializer /1> null
+RefactoringAction 1443618382941 TestSudokuVerifier.java RENAME <initializer /1>=>void testVerify() METHOD
+RefactoringAction 1443618384947 TestSudokuVerifier.java RENAME testVerify()=>void testVerifyRule() METHOD
+RefactoringAction 1443618387953 TestSudokuVerifier.java RENAME testVerifyRule()=>void testVerifyRule1() METHOD
+RefactoringAction 1443618391960 TestSudokuVerifier.java RENAME testVerifyRule1()=>void testVerifyRule1Only() METHOD
+RefactoringAction 1443618393473 TestSudokuVerifier.java RENAME testVerifyRule1Only()=>void testVerifyRule1OnlyPos() METHOD
+RefactoringAction 1443618396495 TestSudokuVerifier.java RENAME testVerifyRule1OnlyPos()=>void testVerifyRule1OnlyPositive() METHOD
+RefactoringAction 1443618403004 TestSudokuVerifier.java RENAME testVerifyRule1OnlyPositive()=>void testVerifyRule1_OnlyPositive() METHOD
+RefactoringAction 1443618409012 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositive()=>void testVerifyRule1_OnlyPositiveDi() METHOD
+RefactoringAction 1443618410019 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDi()=>void testVerifyRule1_OnlyPositiveDigits() METHOD
+RefactoringAction 1443618423537 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits()=>void testVerifyRule1_OnlyPositiveDigits_() METHOD
+RefactoringAction 1443618431048 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_()=>void testVerifyRule1_OnlyPositiveDigits_corre() METHOD
+RefactoringAction 1443618432056 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_corre()=>void testVerifyRule1_OnlyPositiveDigits_correct() METHOD
+RefactoringAction 1443618434562 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_correct()=>void testVerifyRule1_OnlyPositiveDigits_correctString() METHOD
+RefactoringAction 1443618439568 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_correctString()=>void testVerifyRule1_OnlyPositiveDigits_correctString_return() METHOD
+RefactoringAction 1443618458589 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_correctString_return()=>void testVerifyRule1_OnlyPositiveDigits_correctString_return_true() METHOD
+RefactoringAction 1443618509130 SudokuVerifier.java ADD Object verifyRule1(String) METHOD
+EditAction 1443618514551 TestSudokuVerifier.java 1260 6 6 5

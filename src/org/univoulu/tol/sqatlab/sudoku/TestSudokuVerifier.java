@@ -45,5 +45,10 @@ public class TestSudokuVerifier {
 		assertEquals (false, verifier.verifyStringLength(noSolution));
 		
 	}
+	@Test
+	public void testVerifyRule1_OnlyPositiveDigits_correctString_return_true(){
+		
+			assertEquals (true, verifier.verifyRule1(correctSolution));
+	}
 
 }
