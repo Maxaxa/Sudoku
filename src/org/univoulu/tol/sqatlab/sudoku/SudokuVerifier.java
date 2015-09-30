@@ -21,7 +21,7 @@ public class SudokuVerifier {
 		return false;
 	}
 
-	public int[] SolutionToString(String candidateSolution){
+	public int[] solutionToString(String candidateSolution){
 		
 		int[] digits = new int[candidateSolution.length()];
 		for (int i: digits){
@@ -34,6 +34,10 @@ public class SudokuVerifier {
 	
 	
 	public boolean verifyRule1(String candidateSolution) {
+		solutionToString(candidateSolution) = digits;
+		for(int i: digits){
+			
+		}
 		return true;
 	}
 	

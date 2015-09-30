@@ -167,3 +167,5 @@ RefactoringAction 1443620009402 TestSudokuVerifier.java ADD void testVerifyRule1
 RefactoringAction 1443620021912 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true()/2=>void so() METHOD
 RefactoringAction 1443620025420 TestSudokuVerifier.java REMOVE so() METHOD
 EditAction 1443620089870 SudokuVerifier.java 868 5 10 0
+RefactoringAction 1443620373322 SudokuVerifier.java RENAME SolutionToString(String)=>int METHOD
+EditAction 1443620381333 SudokuVerifier.java 950 5 12 0
