@@ -20,6 +20,11 @@ public class SudokuVerifier {
 			return true;
 		return false;
 	}
+
+
+	public boolean verifyRule1(String candidateSolution) {
+		return true;
+	}
 	
 	
 }

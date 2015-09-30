@@ -128,3 +128,5 @@ RefactoringAction 1443618439568 TestSudokuVerifier.java RENAME testVerifyRule1_O
 RefactoringAction 1443618458589 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_correctString_return()=>void testVerifyRule1_OnlyPositiveDigits_correctString_return_true() METHOD
 RefactoringAction 1443618509130 SudokuVerifier.java ADD Object verifyRule1(String) METHOD
 EditAction 1443618514551 TestSudokuVerifier.java 1260 6 6 5
+CompilationAction 1443618514778 TestSudokuVerifier.java
+EditAction 1443618600805 SudokuVerifier.java 610 4 7 0
