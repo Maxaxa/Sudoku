@@ -36,3 +36,13 @@ RefactoringAction 1443615762744 TestSudokuVerifier.java RENAME testverifyStringL
 RefactoringAction 1443615839621 SudokuVerifier.java ADD static Object verifyStringLength() METHOD
 EditAction 1443615865030 TestSudokuVerifier.java 521 2 2 2
 EditAction 1443615865697 SudokuVerifier.java 312 2 2 0
+UnitTestCaseAction 1443615868043 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443615868044 TestSudokuVerifier OK
+UnitTestCaseAction 1443616070597 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616070599 TestSudokuVerifier OK
+RefactoringAction 1443616241479 TestSudokuVerifier.java ADD void setup() METHOD
+RefactoringAction 1443616257305 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
+FileOpenedAction 1443616374902 TestTennisGame.java 2821 15 39 9
+FileOpenedAction 1443616475210 TestTennisGame.java 2821 15 39 9
+RefactoringAction 1443616490725 TestSudokuVerifier.java ADD SudokuVerifier verifier FIELD
+EditAction 1443616554090 TestSudokuVerifier.java 649 3 3 2
