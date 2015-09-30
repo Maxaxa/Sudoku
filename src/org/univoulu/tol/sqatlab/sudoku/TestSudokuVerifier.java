@@ -2,6 +2,8 @@ package org.univoulu.tol.sqatlab.sudoku;
 
 import static org.junit.Assert.*;
 
+import java.util.Arrays;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -53,9 +55,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false(){
 		int[] digits = verifier.solutionToString(correctSolution);
-		for(int i: digits){	
-			System.out.println(digits[i]);
-		}
+		System.out.println(Arrays.toString(digits));
 			assertEquals (false, verifier.verifyRule1(negativSolution));
 	}
 

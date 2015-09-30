@@ -25,7 +25,7 @@ public class SudokuVerifier {
 		
 		int[] digits = new int[candidateSolution.length()];
 		for (int i: digits){
-			digits[i] = Integer.parseInt(candidateSolution.valueOf(candidateSolution.charAt(i)));
+			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
 		}
 
 		return digits;

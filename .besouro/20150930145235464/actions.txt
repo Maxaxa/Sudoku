@@ -205,3 +205,7 @@ EditAction 1443622187616 TestSudokuVerifier.java 1657 7 9 6
 UnitTestCaseAction 1443622190560 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443622190560 TestSudokuVerifier FAIL
 EditAction 1443622296215 SudokuVerifier.java 1071 5 13 0
+UnitTestCaseAction 1443622312774 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443622312774 TestSudokuVerifier FAIL
+RefactoringAction 1443622511113 TestSudokuVerifier.java ADD import java.util.Arrays IMPORT
+EditAction 1443622516814 TestSudokuVerifier.java 1669 7 9 6
