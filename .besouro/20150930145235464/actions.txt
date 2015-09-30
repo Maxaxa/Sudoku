@@ -46,3 +46,5 @@ FileOpenedAction 1443616374902 TestTennisGame.java 2821 15 39 9
 FileOpenedAction 1443616475210 TestTennisGame.java 2821 15 39 9
 RefactoringAction 1443616490725 TestSudokuVerifier.java ADD SudokuVerifier verifier FIELD
 EditAction 1443616554090 TestSudokuVerifier.java 649 3 3 2
+RefactoringAction 1443616644893 SudokuVerifier.java ADD SudokuVerifier() METHOD
+EditAction 1443616657970 SudokuVerifier.java 411 3 4 0
