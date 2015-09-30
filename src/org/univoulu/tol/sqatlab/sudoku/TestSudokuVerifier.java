@@ -25,7 +25,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifyStringLength_correctSolution_returnTrue(){
 		
-		assertEquals (true, verifier.verifyStringLength());
+		assertEquals (true, verifier.verifyStringLength(correctSolution));
 		
 	}
 
