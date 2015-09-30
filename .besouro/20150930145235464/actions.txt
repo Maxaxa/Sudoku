@@ -178,3 +178,4 @@ UnitTestSessionAction 1443621045436 TestSudokuVerifier FAIL
 RefactoringAction 1443621104736 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true()=>void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_falsee() METHOD
 RefactoringAction 1443621105744 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_falsee()=>void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false() METHOD
 EditAction 1443621114103 TestSudokuVerifier.java 1460 7 7 6
+EditAction 1443621147258 SudokuVerifier.java 1005 5 12 0
