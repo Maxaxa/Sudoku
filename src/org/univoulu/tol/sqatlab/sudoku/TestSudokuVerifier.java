@@ -49,12 +49,13 @@ public class TestSudokuVerifier {
 	}
 	@Test
 	public void testVerifyRule1_OnlyPositiveDigits_correctSolution_return_true(){
-		
+		int[] digits = verifier.solutionToString(correctSolution);
+		System.out.println(Arrays.toString(digits));
 			assertEquals (true, verifier.verifyRule1(correctSolution));
 	}
 	@Test
 	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false(){
-		int[] digits = verifier.solutionToString(correctSolution);
+		int[] digits = verifier.solutionToString(negativSolution);
 		System.out.println(Arrays.toString(digits));
 			assertEquals (false, verifier.verifyRule1(negativSolution));
 	}
