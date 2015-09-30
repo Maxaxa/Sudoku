@@ -37,7 +37,7 @@ public class SudokuVerifier {
 		int[] digits = solutionToString(candidateSolution);
 		boolean digitIsRight = true;
 		for(int i: digits){
-			if(digits[i] > 0 && digits[i] < 10) digitIsRight = false;
+			if(digits[i] <= 0 && digits[i] >= 10) digitIsRight = false;
 			
 		}
 		return false;
