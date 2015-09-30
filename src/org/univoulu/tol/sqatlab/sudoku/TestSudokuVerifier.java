@@ -26,6 +26,13 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
+	public void testverify_noSolution_return1() {
+		
+		assertEquals (0, verifier.verify(noSolution));
+	}
+	
+	
+	@Test
 	public void testVerifyStringLength_correctSolution_returnTrue(){
 		
 		assertEquals (true, verifier.verifyStringLength(correctSolution));
@@ -33,7 +40,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerifyStringLength_Solution_returnTrue(){
+	public void testVerifyStringLength_noSolution_returnTrue(){
 		
 		assertEquals (false, verifier.verifyStringLength(noSolution));
 		

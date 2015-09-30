@@ -80,3 +80,9 @@ UnitTestSessionAction 1443617242181 TestSudokuVerifier FAIL
 RefactoringAction 1443617362219 TestSudokuVerifier.java ADD String correctSolution/2 FIELD
 RefactoringAction 1443617380237 TestSudokuVerifier.java RENAME correctSolution/2=>String noSolution FIELD
 EditAction 1443617394123 TestSudokuVerifier.java 980 4 4 3
+UnitTestCaseAction 1443617395009 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443617395009 TestSudokuVerifier OK
+RefactoringAction 1443617414788 TestSudokuVerifier.java ADD void testverify_correctSolution_return1()/2 METHOD
+RefactoringAction 1443617426808 TestSudokuVerifier.java RENAME testVerifyStringLength_Solution_returnTrue()=>void testVerifyStringLength_noSolution_returnTrue() METHOD
+RefactoringAction 1443617438819 TestSudokuVerifier.java RENAME testverify_correctSolution_return1()/2=>void testverify_noSolution_return1() METHOD
+EditAction 1443617447041 TestSudokuVerifier.java 1102 5 5 4
