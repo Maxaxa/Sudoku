@@ -9,7 +9,7 @@ public class TestSudokuVerifier {
 	
 	String correctSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	String noSolution = "";
-
+	String negativSolution = "4-9648";
 	String incorrectSolution = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 	
 	private SudokuVerifier verifier;
@@ -53,7 +53,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true(){
 		
-			assertEquals (true, verifier.verifyRule1(negativSolution));
+			assertEquals (false, verifier.verifyRule1(negativSolution));
 	}
 
 }
