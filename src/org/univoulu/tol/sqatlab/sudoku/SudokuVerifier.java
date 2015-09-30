@@ -40,7 +40,7 @@ public class SudokuVerifier {
 			if(digits[i] <= 0 && digits[i] >= 10) digitIsRight = false;
 			
 		}
-		return false;
+		return digitIsRight;
 	}
 	
 	
