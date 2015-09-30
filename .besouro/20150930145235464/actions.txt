@@ -75,3 +75,8 @@ RefactoringAction 1443617202834 TestSudokuVerifier.java RENAME Sudoku=>String in
 RefactoringAction 1443617209848 TestSudokuVerifier.java RENAME incorrectSudoku=>String incorrect FIELD
 RefactoringAction 1443617211852 TestSudokuVerifier.java RENAME incorrect=>String incorrectSolution FIELD
 EditAction 1443617241365 TestSudokuVerifier.java 961 4 4 3
+UnitTestCaseAction 1443617242181 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617242181 TestSudokuVerifier FAIL
+RefactoringAction 1443617362219 TestSudokuVerifier.java ADD String correctSolution/2 FIELD
+RefactoringAction 1443617380237 TestSudokuVerifier.java RENAME correctSolution/2=>String noSolution FIELD
+EditAction 1443617394123 TestSudokuVerifier.java 980 4 4 3
