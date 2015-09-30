@@ -46,9 +46,14 @@ public class TestSudokuVerifier {
 		
 	}
 	@Test
-	public void testVerifyRule1_OnlyPositiveDigits_correctString_return_true(){
+	public void testVerifyRule1_OnlyPositiveDigits_correctSolution_return_true(){
 		
 			assertEquals (true, verifier.verifyRule1(correctSolution));
+	}
+	@Test
+	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true(){
+		
+			assertEquals (true, verifier.verifyRule1(negativSolution));
 	}
 
 }
