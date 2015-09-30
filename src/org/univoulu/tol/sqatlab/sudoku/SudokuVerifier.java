@@ -34,7 +34,7 @@ public class SudokuVerifier {
 	
 	
 	public boolean verifyRule1(String candidateSolution) {
-		boolean digitIsRight = false;
+		boolean digitIsRight = true;
 		for (int i = 0; i<candidateSolution.length(); i++){
 			if(!Character.isDigit(candidateSolution.charAt(i))){
 				digitIsRight = false;
