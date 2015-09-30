@@ -18,3 +18,20 @@ EditAction 1443614954207 SudokuVerifier.java 205 1 1 0
 UnitTestCaseAction 1443614956544 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443614956547 TestSudokuVerifier OK
 EditAction 1443615110511 SudokuVerifier.java 205 1 1 0
+RefactoringAction 1443615164810 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443615206856 TestSudokuVerifier.java RENAME test=>void testS FIELD
+RefactoringAction 1443615208376 TestSudokuVerifier.java RENAME testS=>void testString FIELD
+RefactoringAction 1443615210397 TestSudokuVerifier.java RENAME testString=>void testStringLength FIELD
+RefactoringAction 1443615212412 TestSudokuVerifier.java RENAME testStringLength=>void testStringLength_ FIELD
+RefactoringAction 1443615214930 TestSudokuVerifier.java RENAME testStringLength_=>void testStringLength_re FIELD
+RefactoringAction 1443615216946 TestSudokuVerifier.java RENAME testStringLength_re=>void testStringLength_return FIELD
+RefactoringAction 1443615233261 TestSudokuVerifier.java RENAME testStringLength_return=>void testStringLength__return FIELD
+RefactoringAction 1443615237293 TestSudokuVerifier.java RENAME testStringLength__return=>void testStringLength_correct_return FIELD
+RefactoringAction 1443615239836 TestSudokuVerifier.java RENAME testStringLength_correct_return=>void testStringLength_correctSolution_return FIELD
+RefactoringAction 1443615256377 TestSudokuVerifier.java ADD String correctSolution FIELD
+RefactoringAction 1443615276409 TestSudokuVerifier.java RENAME testStringLength_correctSolution_return=>void testStringLength_correctSolution_returnTrue FIELD
+RefactoringAction 1443615288295 TestSudokuVerifier.java RENAME testStringLength_correctSolution_returnTrue=>void testStringLength_correctSolution_returnTrue() METHOD
+RefactoringAction 1443615756722 TestSudokuVerifier.java RENAME testStringLength_correctSolution_returnTrue()=>void testverifyStringLength_correctSolution_returnTrue() METHOD
+RefactoringAction 1443615762744 TestSudokuVerifier.java RENAME testverifyStringLength_correctSolution_returnTrue()=>void testVerifyStringLength_correctSolution_returnTrue() METHOD
+RefactoringAction 1443615839621 SudokuVerifier.java ADD static Object verifyStringLength() METHOD
+EditAction 1443615865030 TestSudokuVerifier.java 521 2 2 2
