@@ -218,3 +218,8 @@ EditAction 1443623066785 SudokuVerifier.java 1099 5 14 0
 UnitTestCaseAction 1443623072445 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443623072446 TestSudokuVerifier FAIL
 EditAction 1443623215710 SudokuVerifier.java 1078 5 13 0
+UnitTestCaseAction 1443623216512 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443623216513 TestSudokuVerifier FAIL
+RefactoringAction 1443623281708 TestSudokuVerifier.java REMOVE testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false() METHOD
+RefactoringAction 1443623284216 TestSudokuVerifier.java ADD void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false() METHOD
+EditAction 1443623288816 TestSudokuVerifier.java 1779 7 9 6
