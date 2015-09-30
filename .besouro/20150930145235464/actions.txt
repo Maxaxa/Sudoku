@@ -144,3 +144,18 @@ RefactoringAction 1443618728503 TestSudokuVerifier.java RENAME testVerifyRule1_O
 RefactoringAction 1443618752716 TestSudokuVerifier.java ADD String negativSolution FIELD
 CompilationAction 1443618770701 TestSudokuVerifier.java
 EditAction 1443618784930 TestSudokuVerifier.java 1459 7 7 6
+UnitTestCaseAction 1443618788179 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443618788179 TestSudokuVerifier FAIL
+RefactoringAction 1443618912833 SudokuVerifier.java ADD int cast FIELD
+RefactoringAction 1443618914339 SudokuVerifier.java REMOVE cast FIELD
+RefactoringAction 1443618919847 SudokuVerifier.java ADD int Solution FIELD
+RefactoringAction 1443618922353 SudokuVerifier.java RENAME Solution=>int SolutionTo FIELD
+RefactoringAction 1443618924360 SudokuVerifier.java RENAME SolutionTo=>int SolutionToString FIELD
+RefactoringAction 1443618988414 SudokuVerifier.java RENAME SolutionToString=>int SolutionToString() METHOD
+RefactoringAction 1443619018978 SudokuVerifier.java RENAME SolutionToString()=>int SolutionToString(String) METHOD
+FileOpenedAction 1443619365589 Score.java 321 3 4 0
+FileOpenedAction 1443619375247 Player.java 720 6 5 0
+FileOpenedAction 1443619381083 Game.java 2441 6 11 0
+FileOpenedAction 1443619407383 GildedRose.java 2524 9 25 0
+FileOpenedAction 1443619442278 Item.java 639 7 9 0
+EditAction 1443619929199 SudokuVerifier.java 866 5 10 0
