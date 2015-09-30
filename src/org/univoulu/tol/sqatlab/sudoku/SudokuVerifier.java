@@ -40,6 +40,12 @@ public class SudokuVerifier {
 				digitIsRight = false;
 			}
 		}
+		digitIsRight = isDigitPositive(candidateSolution, digitIsRight);
+		return digitIsRight;
+	}
+
+
+	public boolean isDigitPositive(String candidateSolution, boolean digitIsRight) {
 		if(digitIsRight){
 			int[] digits = solutionToString(candidateSolution);
 			

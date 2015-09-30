@@ -264,3 +264,10 @@ EditAction 1443624537858 SudokuVerifier.java 1276 5 13 0
 UnitTestCaseAction 1443624540406 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443624540407 TestSudokuVerifier OK
 EditAction 1443624593013 TestSudokuVerifier.java 1562 7 7 6
+RefactoringAction 1443624606678 TestSudokuVerifier.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1443624631211 TestSudokuVerifier.java ADD void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false()/2 METHOD
+RefactoringAction 1443624645223 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false()/2=>void testRule2 FIELD
+RefactoringAction 1443624649231 TestSudokuVerifier.java RENAME testRule2=>void testRule2() METHOD
+RefactoringAction 1443624683978 TestSudokuVerifier.java REMOVE testRule2() METHOD
+RefactoringAction 1443624767958 SudokuVerifier.java ADD boolean isDigitPositive(String, boolean) METHOD
+EditAction 1443624767962 SudokuVerifier.java 1459 6 15 0
