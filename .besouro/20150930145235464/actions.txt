@@ -57,3 +57,21 @@ EditAction 1443617027872 TestSudokuVerifier.java 664 3 3 2
 UnitTestCaseAction 1443617028705 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443617028705 TestSudokuVerifier OK
 EditAction 1443617086559 SudokuVerifier.java 523 3 6 0
+UnitTestCaseAction 1443617087299 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443617087299 TestSudokuVerifier OK
+UnitTestCaseAction 1443617089785 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443617089785 TestSudokuVerifier OK
+RefactoringAction 1443617123832 TestSudokuVerifier.java ADD void testVerifyStringLength_correctSolution_returnTrue()/2 METHOD
+RefactoringAction 1443617133844 TestSudokuVerifier.java RENAME testverify()=>void testverify_() METHOD
+RefactoringAction 1443617135851 TestSudokuVerifier.java RENAME testverify_()=>void testverify_correct() METHOD
+RefactoringAction 1443617138860 TestSudokuVerifier.java RENAME testverify_correct()=>void testverify_correctSolution() METHOD
+RefactoringAction 1443617150386 TestSudokuVerifier.java RENAME testverify_correctSolution()=>void testverify_correctSolution_() METHOD
+RefactoringAction 1443617151892 TestSudokuVerifier.java RENAME testverify_correctSolution_()=>void testverify_correctSolution_re() METHOD
+RefactoringAction 1443617153400 TestSudokuVerifier.java RENAME testverify_correctSolution_re()=>void testverify_correctSolution_return() METHOD
+RefactoringAction 1443617154906 TestSudokuVerifier.java RENAME testverify_correctSolution_return()=>void testverify_correctSolution_return1() METHOD
+RefactoringAction 1443617167428 TestSudokuVerifier.java RENAME testVerifyStringLength_correctSolution_returnTrue()/2=>void testVerifyStringLength_Solution_returnTrue() METHOD
+RefactoringAction 1443617194311 TestSudokuVerifier.java ADD incorrect Sudoku FIELD
+RefactoringAction 1443617202834 TestSudokuVerifier.java RENAME Sudoku=>String incorrect FIELD
+RefactoringAction 1443617209848 TestSudokuVerifier.java RENAME incorrectSudoku=>String incorrect FIELD
+RefactoringAction 1443617211852 TestSudokuVerifier.java RENAME incorrect=>String incorrectSolution FIELD
+EditAction 1443617241365 TestSudokuVerifier.java 961 4 4 3
