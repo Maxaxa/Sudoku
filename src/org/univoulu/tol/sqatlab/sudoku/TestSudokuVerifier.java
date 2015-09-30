@@ -51,7 +51,7 @@ public class TestSudokuVerifier {
 			assertEquals (true, verifier.verifyRule1(correctSolution));
 	}
 	@Test
-	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true(){
+	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false(){
 		
 			assertEquals (false, verifier.verifyRule1(negativSolution));
 	}

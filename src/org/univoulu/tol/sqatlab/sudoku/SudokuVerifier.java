@@ -34,11 +34,11 @@ public class SudokuVerifier {
 	
 	
 	public boolean verifyRule1(String candidateSolution) {
-		solutionToString(candidateSolution) = digits;
+		int[] digits = solutionToString(candidateSolution);
 		for(int i: digits){
-			
+			if(digits[i] > 0) return true;
 		}
-		return true;
+		return false;
 	}
 	
 	

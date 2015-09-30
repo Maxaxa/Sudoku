@@ -169,3 +169,12 @@ RefactoringAction 1443620025420 TestSudokuVerifier.java REMOVE so() METHOD
 EditAction 1443620089870 SudokuVerifier.java 868 5 10 0
 RefactoringAction 1443620373322 SudokuVerifier.java RENAME SolutionToString(String)=>int METHOD
 EditAction 1443620381333 SudokuVerifier.java 950 5 12 0
+CompilationAction 1443620381668 SudokuVerifier.java
+CompilationAction 1443620381668 SudokuVerifier.java
+CompilationAction 1443620865235 SudokuVerifier.java
+CompilationAction 1443620865236 SudokuVerifier.java
+UnitTestCaseAction 1443621045435 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443621045436 TestSudokuVerifier FAIL
+RefactoringAction 1443621104736 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_true()=>void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_falsee() METHOD
+RefactoringAction 1443621105744 TestSudokuVerifier.java RENAME testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_falsee()=>void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false() METHOD
+EditAction 1443621114103 TestSudokuVerifier.java 1460 7 7 6
