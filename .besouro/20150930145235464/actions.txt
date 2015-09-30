@@ -11,3 +11,4 @@ FileOpenedAction 1443614874485 GildedRose.java 2524 9 25 0
 FileOpenedAction 1443614883335 Item.java 639 7 9 0
 FileOpenedAction 1443614896636 Game.java 2441 6 11 0
 EditAction 1443614931561 TestSudokuVerifier.java 364 1 2 1
+EditAction 1443614932563 SudokuVerifier.java 205 1 1 0
