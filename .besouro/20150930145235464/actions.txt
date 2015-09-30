@@ -272,3 +272,18 @@ RefactoringAction 1443624683978 TestSudokuVerifier.java REMOVE testRule2() METHO
 RefactoringAction 1443624767958 SudokuVerifier.java ADD boolean isDigitPositive(String, boolean) METHOD
 EditAction 1443624767962 SudokuVerifier.java 1459 6 15 0
 EditAction 1443624778665 TestSudokuVerifier.java 1542 7 7 6
+UnitTestCaseAction 1443624779551 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443624779551 TestSudokuVerifier OK
+RefactoringAction 1443624806814 SudokuVerifierTest.java ADD void test() METHOD
+RefactoringAction 1443624806818 SudokuVerifierTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1443624806831 SudokuVerifierTest.java ADD SudokuVerifierTest.java CLASS
+FileOpenedAction 1443624807147 SudokuVerifierTest.java 216 1 1 0
+RefactoringAction 1443624824350 SudokuVerifierTest.java REMOVE SudokuVerifierTest.java CLASS
+RefactoringAction 1443624903736 TestSudokuVerifier.java ADD void tes FIELD
+RefactoringAction 1443624904740 TestSudokuVerifier.java RENAME tes=>void test FIELD
+RefactoringAction 1443624906748 TestSudokuVerifier.java RENAME test=>void testVerfy FIELD
+RefactoringAction 1443624908254 TestSudokuVerifier.java RENAME testVerfy=>void testVerfyRule FIELD
+RefactoringAction 1443624910262 TestSudokuVerifier.java RENAME testVerfyRule=>void testVerfyRule2 FIELD
+RefactoringAction 1443624912267 TestSudokuVerifier.java RENAME testVerfyRule2=>void testVerfyRule2() METHOD
+RefactoringAction 1443624963476 SudokuVerifier.java ADD Object verifyRule2(String) METHOD
+EditAction 1443624971028 TestSudokuVerifier.java 1646 8 8 7

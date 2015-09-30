@@ -58,5 +58,8 @@ public class TestSudokuVerifier {
 			assertEquals (false, verifier.verifyRule1(negativSolution));
 	}
 	
-	
+	@Test
+	public void testVerfyRule2(){
+		assertEquals (true, verifier.verifyRule2(correctSolution));
+	}
 }
