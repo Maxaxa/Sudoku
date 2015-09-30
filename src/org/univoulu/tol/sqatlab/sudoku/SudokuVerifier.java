@@ -6,4 +6,9 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		return 1;
 	}
+
+	public static boolean verifyStringLength() {
+		// TODO Auto-generated method stub
+		return true;
+	}
 }

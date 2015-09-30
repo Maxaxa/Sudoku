@@ -35,3 +35,4 @@ RefactoringAction 1443615756722 TestSudokuVerifier.java RENAME testStringLength_
 RefactoringAction 1443615762744 TestSudokuVerifier.java RENAME testverifyStringLength_correctSolution_returnTrue()=>void testVerifyStringLength_correctSolution_returnTrue() METHOD
 RefactoringAction 1443615839621 SudokuVerifier.java ADD static Object verifyStringLength() METHOD
 EditAction 1443615865030 TestSudokuVerifier.java 521 2 2 2
+EditAction 1443615865697 SudokuVerifier.java 312 2 2 0
