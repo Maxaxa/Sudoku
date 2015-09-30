@@ -54,3 +54,6 @@ RefactoringAction 1443616743792 SudokuVerifier.java RENAME verifyStringLength()=
 EditAction 1443616988653 SudokuVerifier.java 472 3 5 0
 CompilationAction 1443616988915 TestSudokuVerifier.java
 EditAction 1443617027872 TestSudokuVerifier.java 664 3 3 2
+UnitTestCaseAction 1443617028705 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443617028705 TestSudokuVerifier OK
+EditAction 1443617086559 SudokuVerifier.java 523 3 6 0
