@@ -23,11 +23,12 @@ public class SudokuVerifier {
 
 	public int[] solutionToString(String candidateSolution){
 		
-		int[] digits = new int[candidateSolution.length()];
+		
+		char sudokuChars[] = candidateSolution.toCharArray();
+		int digits[] = new int[candidateSolution.length()];
 		for (int i: digits){
-			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
+			digits[i] = Character.getNumericValue(sudokuChars[i]);
 		}
-
 		return digits;
 		
 	}
