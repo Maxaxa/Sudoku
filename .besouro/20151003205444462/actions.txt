@@ -188,3 +188,6 @@ EditAction 1443901650378 TestSudokuVerifier.java 2150 10 11 9
 CompilationAction 1443901650589 TestSudokuVerifier.java
 RefactoringAction 1443901766007 SudokuVerifier.java RENAME getSubGrid(String)=>int METHOD
 EditAction 1443901772929 SudokuVerifier.java 1956 8 21 0
+CompilationAction 1443901773204 TestSudokuVerifier.java
+CompilationAction 1443901780423 TestSudokuVerifier.java
+EditAction 1443902001601 SudokuVerifier.java 2020 8 21 0
