@@ -52,3 +52,6 @@ RefactoringAction 1443895823728 TestSudokuVerifier.java RENAME getFirstSubGrid_g
 RefactoringAction 1443895925427 SudokuVerifier.java ADD Object getFirstGrid(String) METHOD
 EditAction 1443895961256 SudokuVerifier.java 1616 8 17 0
 EditAction 1443895961606 TestSudokuVerifier.java 2048 10 10 9
+UnitTestCaseAction 1443895962530 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443895962531 TestSudokuVerifier FAIL
+EditAction 1443895987770 SudokuVerifier.java 1624 8 17 0

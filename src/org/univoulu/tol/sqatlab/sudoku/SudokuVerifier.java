@@ -65,7 +65,7 @@ public class SudokuVerifier {
 	}
 
 
-	public int[] getFirstGrid(String gridCheck) {
+	public int[] getFirstGrid(String candidateSolution) {
 		
 		return null;
 	}
