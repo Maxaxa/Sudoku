@@ -75,7 +75,7 @@ public class SudokuVerifier {
 			for(int j = 0; j<3;j++){
 				for(int i = 0+(j*3)%singleGrid.length; i<(singleGrid.length/3)*((j+1)%4);i++){
 				
-					singleGrid[i] = digits[i+/*(singleGrid.length-3)*/(s*j)+1];
+					singleGrid[i] = digits[i+(singleGrid.length-3)*j];
 				
 				}
 			}
