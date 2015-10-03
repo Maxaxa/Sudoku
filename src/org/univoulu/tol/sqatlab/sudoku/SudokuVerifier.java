@@ -69,16 +69,16 @@ public class SudokuVerifier {
 
 	public int[] getFirstGrid(String candidateSolution) {
 		int[] digits = solutionToString(candidateSolution);
-		int[] firstGrid = new int [9];
+		int[] singleGrid = new int [9];
 			for(int j = 0; j<3;j++){
-				for(int i = 0+(j*3); i<(firstGrid.length/3)*(j+1);i++){
+				for(int i = 0+(j*3); i<(singleGrid.length/3)*(j+1);i++){
 				
-					firstGrid[i] = digits[i+(firstGrid.length-3)*j];
+					singleGrid[i] = digits[i+(singleGrid.length-3)*j];
 				
 			}
 		}
 		
-		return firstGrid;
+		return singleGrid;
 	}
 	
 }
