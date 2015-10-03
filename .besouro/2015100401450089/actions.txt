@@ -34,3 +34,7 @@ RefactoringAction 1443915382305 TestSudokuVerifier.java REMOVE getSubGrid_gridCe
 RefactoringAction 1443915382306 TestSudokuVerifier.java REMOVE getSubGrid_gridCeck_subGridTopMid_return456456456() METHOD
 RefactoringAction 1443915382306 TestSudokuVerifier.java REMOVE getSubGrid_gridCeck_subGridBottomRight_return789789789() METHOD
 EditAction 1443915387675 TestSudokuVerifier.java 2586 9 9 8
+RefactoringAction 1443915392867 TestSudokuVerifier.java ADD void getSubGrid_gridCeck_subGridTopLeft_return123123123() METHOD
+RefactoringAction 1443915392867 TestSudokuVerifier.java ADD void getSubGrid_gridCeck_subGridTopMid_return456456456() METHOD
+RefactoringAction 1443915392868 TestSudokuVerifier.java ADD void getSubGrid_gridCeck_subGridBottomRight_return789789789() METHOD
+EditAction 1443915393210 TestSudokuVerifier.java 2582 12 15 11
