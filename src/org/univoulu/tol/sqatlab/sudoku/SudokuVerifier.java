@@ -85,15 +85,17 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int [][] subGrids = new int[9][9];
 		
 		int [][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
+		int gridCounter =0;
 		for(int iforward=0; iforward<3;iforward++){
 			for(int jforward=0; jforward<3;jforward++){
 				int counter = 0;
 				for(int i = 0; i<3;i++){
 					for(int j = 0; j<3;j++){
-						subGrids[0][counter] = digitArray[j+(jforward)*3][i+(iforward)*3];
+						subGrids[gridCounter][counter] = digitArray[j+(jforward)*3][i+(iforward)*3];
 						counter++;
 					}
 				}
+				gridCounter++;
 				System.out.println(Arrays.toString(subGrids[0]));
 			}
 		}
