@@ -80,20 +80,17 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	}
 
 
-	/*public int[][] getSubGrids(String candidateSolution) {
+	public int[][] getSubGrids(String candidateSolution) {
 		
 		int [][] subGrids = new int[9][9];
 		
-		for(int s = 0; s < 9; s++){
-			int[] singleGrid = new int[9];
-			int startingpoint=3;
-				singleGrid = getSingleGrid(candidateSolution, startingpoint);
-			
-			subGrids[s] = singleGrid;
-			//System.out.println(Arrays.toString(subGrids[s]));
-		}
+		int [][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
+		
+		for(int i = 0; i<3;i++)
+		
 		return subGrids;
-	}*/
+		
+	}
 
 
 	/*public int[] getSingleGrid(String candidateSolution, int startingpoint) {
