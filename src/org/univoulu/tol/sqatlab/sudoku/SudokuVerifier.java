@@ -78,9 +78,16 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	public boolean verifyRule2(String candidateSolution) {
 		boolean digitIsRight = true;
 		 int[][] subGrids = getSubGrids(candidateSolution); 
+		 int [] allNumbersCheck = new int[9];
 		for(int s=0; s<9;s++){
 			for(int g=0; g<9;g++){
-				if(!Arrays.asList(subGrids[s][g]).contains(g+1)){
+				for(int count=1; count<10;count++)
+				if(subGrids[s][g] == count){
+					allNumbersCheck[count-1]=count;
+				}
+			}
+			for(int c =0; c <10;c++){
+				if(allNumbersCheck[c-1] != c ){
 					return false;
 				}
 			}
