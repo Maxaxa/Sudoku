@@ -453,3 +453,6 @@ UnitTestSessionAction 1443911803419 TestSudokuVerifier FAIL
 RefactoringAction 1443911820345 TestSudokuVerifier.java ADD void getSubGrid_gridCeck_subGridTopRight_return456456456() METHOD
 RefactoringAction 1443911820346 TestSudokuVerifier.java ADD void getSubGrid_gridCeck_subGridBottomRight_return789789789() METHOD
 EditAction 1443911825134 TestSudokuVerifier.java 2584 12 15 11
+UnitTestCaseAction 1443911828280 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443911828281 TestSudokuVerifier FAIL
+EditAction 1443911894669 SudokuVerifier.java 3180 9 28 0
