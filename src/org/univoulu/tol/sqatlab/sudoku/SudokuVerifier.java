@@ -84,9 +84,9 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				for(int count=1; count<10;count++)
 				if(subGrids[s][g] == count){
 					allNumbersCheck[count-1]=count;
-					System.out.println(Arrays.toString(allNumbersCheck));
 				}
 			}
+			System.out.println(Arrays.toString(allNumbersCheck));
 			for(int c =1; c <10;c++){
 				if(allNumbersCheck[c-1] != c ){
 					return false;
