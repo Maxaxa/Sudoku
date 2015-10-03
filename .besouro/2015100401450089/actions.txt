@@ -51,3 +51,6 @@ EditAction 1443915640069 SudokuVerifier.java 3153 9 32 0
 UnitTestCaseAction 1443915640973 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443915640973 TestSudokuVerifier.testVerfyRule2_correctString_returnTrue FAIL
 EditAction 1443915656069 SudokuVerifier.java 3155 9 32 0
+UnitTestCaseAction 1443915656973 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443915656973 TestSudokuVerifier.testVerfyRule2_correctString_returnTrue FAIL
+EditAction 1443915764015 SudokuVerifier.java 3159 9 31 0
