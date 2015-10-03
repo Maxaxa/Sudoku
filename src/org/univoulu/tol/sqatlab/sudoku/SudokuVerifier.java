@@ -73,7 +73,7 @@ public class SudokuVerifier {
 				firstGrid[i] = digits[i*j];
 			}
 		}
-		return null;
+		return firstGrid;
 	}
 	
 }
