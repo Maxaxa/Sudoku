@@ -81,6 +81,7 @@ public class SudokuVerifier {
 			}
 			subGrids[s] = singleGrid;
 		}
+		System.out.println(Arrays.toString(subGrids));
 		return subGrids;
 	}
 	
