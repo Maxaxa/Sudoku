@@ -82,7 +82,7 @@ public class TestSudokuVerifier {
 	public void getSubGrid_gridCeck_subGridBottomRight_return789789789(){
 	int[][] subGrids= verifier.getSubGrids(gridCheck);
 		assertEquals ("[7, 8, 9, 7, 8, 9, 7, 8, 9]", Arrays.toString(subGrids[8]));
-		System.out.println(Arrays.toString(subGrids));
+		
 		
 	}
 }
