@@ -69,7 +69,7 @@ public class SudokuVerifier {
 
 	public int[][] getSubGrids(String candidateSolution) {
 		int[] digits = solutionToString(candidateSolution);
-		int [][] subGrids = new int[9][9];
+		int [][] subGrids = new int[9][1];
 		int[] singleGrid = new int [9];
 		for(int s = 0; s < 9; s++){
 			for(int j = 0; j<3;j++){
@@ -79,7 +79,7 @@ public class SudokuVerifier {
 				
 				}
 			}
-			subGrids[s] = singleGrid;
+			subGrids[0] = singleGrid;
 		}
 		return subGrids;
 	}
