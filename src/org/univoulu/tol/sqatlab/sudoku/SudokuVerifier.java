@@ -33,9 +33,10 @@ public class SudokuVerifier {
 		return digits;
 		
 	}
-public int[] solutionToTwoDimensianalIntArray(String candidateSolution){
-		
-		int[] digits = new int[candidateSolution.length()];
+public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
+		int rowLength = 9;
+		int columnLength = 9;
+		int[][] digitArray = new int[rowLength][columnLength];
 		for (int i = 0; i<digits.length;i++ ){
 			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
 		}
@@ -78,7 +79,7 @@ public int[] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 
 	public int[][] getSubGrids(String candidateSolution) {
-		int[] digits = solutionToString(candidateSolution);
+		int[] digits = solutionToIntArray(candidateSolution);
 		int [][] subGrids = new int[9][9];
 		int[] singleGrid = new int [9];
 		for(int s = 0; s < 9; s++){

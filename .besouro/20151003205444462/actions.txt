@@ -304,3 +304,6 @@ RefactoringAction 1443905680416 SudokuVerifier.java RENAME solutionToString(Stri
 RefactoringAction 1443905683926 SudokuVerifier.java RENAME solutionToTwoDimensia(String)=>int METHOD
 RefactoringAction 1443905709006 SudokuVerifier.java RENAME solutionToInArray(String)=>int METHOD
 EditAction 1443905711030 SudokuVerifier.java 2387 9 24 0
+CompilationAction 1443905711436 SudokuVerifier.java
+CompilationAction 1443905727730 SudokuVerifier.java
+EditAction 1443905875573 SudokuVerifier.java 2437 9 26 0
