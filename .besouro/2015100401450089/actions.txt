@@ -92,3 +92,6 @@ RefactoringAction 1443916698916 SudokuVerifier.java REMOVE verifyRule2(String) M
 RefactoringAction 1443916698917 SudokuVerifier.java REMOVE getSubGrids(String) METHOD
 RefactoringAction 1443916698918 SudokuVerifier.java REMOVE isDigitPositive(String, boolean) METHOD
 EditAction 1443916701896 SudokuVerifier.java 3297 9 32 0
+UnitTestCaseAction 1443916704135 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443916704135 TestSudokuVerifier FAIL
+EditAction 1443916728927 SudokuVerifier.java 3297 9 32 0
