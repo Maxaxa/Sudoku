@@ -23,7 +23,17 @@ public class SudokuVerifier {
 		return false;
 	}
 
-	public int[] solutionToString(String candidateSolution){
+	public int[] solutionToIntArray(String candidateSolution){
+		
+		int[] digits = new int[candidateSolution.length()];
+		for (int i = 0; i<digits.length;i++ ){
+			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
+		}
+
+		return digits;
+		
+	}
+public int[] solutionToTwoDimensianalIntArray(String candidateSolution){
 		
 		int[] digits = new int[candidateSolution.length()];
 		for (int i = 0; i<digits.length;i++ ){
@@ -49,7 +59,7 @@ public class SudokuVerifier {
 
 	public boolean isDigitPositive(String candidateSolution, boolean digitIsRight) {
 		if(digitIsRight){
-			int[] digits = solutionToString(candidateSolution);
+			int[] digits = solutionToIntArray(candidateSolution);
 			
 			for(int j: digits){
 				if(digits[j] <= 0 && digits[j] >= 10){

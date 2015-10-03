@@ -297,3 +297,10 @@ EditAction 1443905453917 SudokuVerifier.java 2108 8 21 0
 UnitTestCaseAction 1443905454913 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443905454913 TestSudokuVerifier FAIL
 EditAction 1443905551595 SudokuVerifier.java 2096 8 21 0
+RefactoringAction 1443905658875 SudokuVerifier.java ADD int METHOD
+RefactoringAction 1443905669893 SudokuVerifier.java RENAME solutionToString(String)/2=>int METHOD
+RefactoringAction 1443905670899 SudokuVerifier.java RENAME solutionToInA(String)=>int METHOD
+RefactoringAction 1443905680416 SudokuVerifier.java RENAME solutionToString(String)=>int METHOD
+RefactoringAction 1443905683926 SudokuVerifier.java RENAME solutionToTwoDimensia(String)=>int METHOD
+RefactoringAction 1443905709006 SudokuVerifier.java RENAME solutionToInArray(String)=>int METHOD
+EditAction 1443905711030 SudokuVerifier.java 2387 9 24 0
