@@ -69,6 +69,6 @@ public class TestSudokuVerifier {
 	}
 	@Test
 	public void getFirstSubGrid_gridCeck_return123123123(){
-		assertEquals (123123123, verifier.getFirstGrid(gridCheck));
+		assertEquals ("123123123", verifier.getFirstGrid(gridCheck.toString()));
 	}
 }
