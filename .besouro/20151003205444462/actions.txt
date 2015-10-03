@@ -78,3 +78,10 @@ UnitTestCaseAction 1443896837330 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443896837331 TestSudokuVerifier FAIL
 RefactoringAction 1443896882958 SudokuVerifier.java ADD import java.util.Arrays IMPORT
 EditAction 1443896886712 SudokuVerifier.java 1909 8 21 0
+UnitTestCaseAction 1443896887690 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443896887690 TestSudokuVerifier FAIL
+RefactoringAction 1443897110725 TestSudokuVerifier.java ADD import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array IMPORT
+RefactoringAction 1443897118048 TestSudokuVerifier.java REMOVE import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array IMPORT
+RefactoringAction 1443897123653 TestSudokuVerifier.java ADD import java.lang.reflect.Array IMPORT
+RefactoringAction 1443897162105 TestSudokuVerifier.java RENAME import java.lang.reflect.Array=>import java.util.Arrays IMPORT
+EditAction 1443897165351 TestSudokuVerifier.java 2179 10 11 9
