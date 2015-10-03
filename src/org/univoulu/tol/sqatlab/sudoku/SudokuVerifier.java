@@ -98,7 +98,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				gridCounter++;
 			}
 		}
-		System.out.println(Arrays.toString(subGrids[1]));
+		System.out.println(Arrays.toString(subGrids[3]));
 		return subGrids;
 		
 	}
