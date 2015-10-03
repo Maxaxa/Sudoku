@@ -96,11 +96,13 @@ public class SudokuVerifier {
 
 	public int[] getSingleGrid(String candidateSolution, int startingpoint) {
 		int[] singleGrid = new int [9];
-		int[] digits = solutionToIntArray(candidateSolution);
+		int[] digits = solutionToIntArray(candidateSolution);		
+		int counter = 0;
 		for(int j = startingpoint; j<3;j++){
-			for(int i = 0+(j*3)%3; i<(singleGrid.length/3)*((j%3)+1);i++){
+			counter++;
+			for(int i = 0+(counter*3); i<(singleGrid.length/3)*((counter)+1);i++){
 			
-				singleGrid[i] = digits[i+(singleGrid.length-3)*j];
+				singleGrid[i] = digits[i+(singleGrid.length-3)*counter];
 		//	System.out.print(singleGrid[i]);
 			}
 			System.out.println();
