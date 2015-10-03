@@ -109,7 +109,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				int counter = 0;
 				for(int i = 0; i<3;i++){
 					for(int j = 0; j<3;j++){
-						subGrids[gridCounter][counter] = digitArray[j+(jforward)*3][i+(iforward)*3];
+						subGrids[gridCounter][counter] = digitArray[i+(iforward)*3][j+(jforward)*3];
 						counter++;
 					}
 				}
