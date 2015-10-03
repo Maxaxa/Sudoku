@@ -98,7 +98,7 @@ public class SudokuVerifier {
 		int[] singleGrid = new int [9];
 		int[] digits = solutionToIntArray(candidateSolution);		
 		int counter = 0;
-		for(int j = startingpoint; j<3;j++){
+		for(int j = startingpoint; j<startingpoint+3;j++){
 			for(int i = 0+(counter*3); i<(9/3)*((counter)+1);i++){
 			
 				singleGrid[i] = digits[i+(singleGrid.length-3)*counter];
