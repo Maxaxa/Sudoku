@@ -80,13 +80,13 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		 int[][] subGrids = getSubGrids(candidateSolution); 
 		 int [] allNumbersCheck = new int[9];
 		for(int s=0; s<9;s++){
+			System.out.println(Arrays.toString(subGrids[s]));
 			for(int g=0; g<9;g++){
 				for(int count=1; count<10;count++)
 				if(subGrids[s][g] == count){
 					allNumbersCheck[count-1]=count;
 				}
 			}
-			System.out.println(Arrays.toString(allNumbersCheck));
 			for(int c =1; c <10;c++){
 				if(allNumbersCheck[c-1] != c ){
 					return false;
