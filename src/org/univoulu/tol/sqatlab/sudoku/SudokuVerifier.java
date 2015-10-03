@@ -84,7 +84,7 @@ public class SudokuVerifier {
 		
 		for(int s = 0; s < 9; s++){
 			int[] singleGrid = new int[9];
-			int startingpoint=0;
+			int startingpoint=3;
 				singleGrid = getSingleGrid(candidateSolution, startingpoint);
 			
 			subGrids[s] = singleGrid;
