@@ -86,8 +86,8 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		
 		int [][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
 		int gridCounter =0;
-		for(int jforward=0; jforward<3;jforward++){
-			for(int iforward=0; iforward<3;iforward++){
+		for(int iforward=0; iforward<3;iforward++){
+			for(int jforward=0; jforward<3;jforward++){
 				int counter = 0;
 				for(int i = 0; i<3;i++){
 					for(int j = 0; j<3;j++){
