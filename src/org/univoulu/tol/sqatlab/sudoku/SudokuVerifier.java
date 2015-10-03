@@ -86,7 +86,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 					allNumbersCheck[count-1]=count;
 				}
 			}
-			for(int c =0; c <10;c++){
+			for(int c =1; c <10;c++){
 				if(allNumbersCheck[c-1] != c ){
 					return false;
 				}
