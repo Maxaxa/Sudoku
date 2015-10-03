@@ -99,28 +99,10 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 			}
 		}
 		for(int s=0; s<9;s++){
-			System.out.println(Arrays.toString(subGrids[s]));
+			//System.out.println(Arrays.toString(subGrids[s]));
 		}
 		return subGrids;
 		
 	}
-
-
-	/*public int[] getSingleGrid(String candidateSolution, int startingpoint) {
-		int[] singleGrid = new int [9];
-		int[] digits = solutionToIntArray(candidateSolution);		
-		int counter = 0;
-		for(int j = startingpoint; j<startingpoint+3;j++){
-			for(int i = 0+(counter*3); i<(9/3)*((counter)+1);i++){
-			
-				singleGrid[i] = digits[i+(singleGrid.length-3)*counter];
-			System.out.print(i+(singleGrid.length-3)*counter);
-			}
-			counter++;
-			System.out.println();
-		}
-		System.out.println(Arrays.toString(singleGrid));
-		return singleGrid;
-	}*/
 	
 }
