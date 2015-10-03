@@ -66,7 +66,13 @@ public class SudokuVerifier {
 
 
 	public int[] getFirstGrid(String candidateSolution) {
-		
+		int[] digits = solutionToString(candidateSolution);
+		int[] firstGrid = new int [9];
+		for(int j = 0; j<3;j++){
+			for(int i = 0; i<firstGrid.length;i++){
+				firstGrid[i] = digits[i*j];
+			}
+		}
 		return null;
 	}
 	
