@@ -70,8 +70,8 @@ public class SudokuVerifier {
 	public int[] getFirstGrid(String candidateSolution) {
 		int[] digits = solutionToString(candidateSolution);
 		int[] firstGrid = new int [9];
-		for(int i = 0; i<firstGrid.length;i++){
 			for(int j = 0; j<3;j++){
+				for(int i = 0; i<firstGrid.length;i++){
 				//for(int d = 0; d<3;d++){
 					firstGrid[i] = digits[j+firstGrid.length*j];
 				//}
