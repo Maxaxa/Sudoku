@@ -60,7 +60,7 @@ public class SudokuVerifier {
 	}
 
 
-	public boolean verifyRule2(String correctSolution) {
+	public boolean verifyRule2(String candidateSolution) {
 		return true;
 	}
 	
