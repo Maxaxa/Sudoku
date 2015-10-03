@@ -36,11 +36,14 @@ public class SudokuVerifier {
 public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int rowLength = 9;
 		int columnLength = 9;
+		int counter = 0;
 		int[][] digitArray = new int[rowLength][columnLength];
 		int [] digits = solutionToIntArray(candidateSolution);
 		for (int i = 0; i<columnLength;i++ ){
 			for (int j = 0; j<digits.length;j++ ){
-				digitArray[i][j] = digits[i];
+				
+				digitArray[i][j] = digits[counter];
+				counter++;
 			}
 			//System.out.println(Arrays.toString(digitArray[i%9]));
 		}
