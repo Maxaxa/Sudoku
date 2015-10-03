@@ -102,7 +102,7 @@ public class SudokuVerifier {
 			for(int i = 0+(counter*3); i<(singleGrid.length/3)*((counter)+1);i++){
 			
 				singleGrid[i] = digits[i+(singleGrid.length-3)*counter];
-			System.out.print(i+(singleGrid.length-3)*counter);
+			System.out.print(i*counter);
 			}
 			counter++;
 			System.out.println();
