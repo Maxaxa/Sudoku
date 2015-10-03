@@ -99,13 +99,13 @@ public class SudokuVerifier {
 		int[] digits = solutionToIntArray(candidateSolution);		
 		int counter = 0;
 		for(int j = startingpoint; j<3;j++){
-			counter++;
 			for(int i = 0+(counter*3); i<(singleGrid.length/3)*((counter)+1);i++){
 			
 				singleGrid[i] = digits[i+(singleGrid.length-3)*counter];
 		//	System.out.print(singleGrid[i]);
 			}
-			System.out.println();
+			counter++;
+		//	System.out.println();
 		}
 		System.out.println(Arrays.toString(singleGrid));
 		return singleGrid;
