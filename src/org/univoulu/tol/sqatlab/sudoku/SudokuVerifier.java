@@ -88,7 +88,7 @@ public class SudokuVerifier {
 				singleGrid = getSingleGrid(candidateSolution, startingpoint);
 			}
 			subGrids[s] = singleGrid;
-			System.out.println(Arrays.toString(subGrids[s]));
+			//System.out.println(Arrays.toString(subGrids[s]));
 		}
 		return subGrids;
 	}
@@ -101,8 +101,9 @@ public class SudokuVerifier {
 			for(int i = 0+(j*3)%singleGrid.length; i<(singleGrid.length/3)*((j%3)+1);i++){
 			
 				singleGrid[i] = digits[i+(singleGrid.length-3)*j];
-			
+			System.out.print(singleGrid[i]);
 			}
+			System.out.println();
 		}
 		return singleGrid;
 	}
