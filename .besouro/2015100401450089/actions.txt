@@ -83,3 +83,12 @@ EditAction 1443916561156 SudokuVerifier.java 3325 9 33 0
 UnitTestCaseAction 1443916562193 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443916562194 TestSudokuVerifier.testVerfyRule2_correctString_returnTrue OK
 EditAction 1443916576370 SudokuVerifier.java 3293 9 33 0
+UnitTestCaseAction 1443916579021 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916579021 TestSudokuVerifier.testVerfyRule2_correctString_returnTrue OK
+UnitTestCaseAction 1443916589796 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443916589797 TestSudokuVerifier FAIL
+RefactoringAction 1443916698915 SudokuVerifier.java REMOVE verifyRule1(String) METHOD
+RefactoringAction 1443916698916 SudokuVerifier.java REMOVE verifyRule2(String) METHOD
+RefactoringAction 1443916698917 SudokuVerifier.java REMOVE getSubGrids(String) METHOD
+RefactoringAction 1443916698918 SudokuVerifier.java REMOVE isDigitPositive(String, boolean) METHOD
+EditAction 1443916701896 SudokuVerifier.java 3297 9 32 0
