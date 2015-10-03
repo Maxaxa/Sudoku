@@ -71,6 +71,6 @@ public class TestSudokuVerifier {
 	public void getFirstSubGrid_gridCeck_return123123123(){
 	
 		assertEquals ("[1, 3, 5, 7, 9, 2, 4, 6, 8]", verifier.getFirstGrid(gridCheck.toString()));
-		System.out.println(Array.toString(verifier.getFirstGrid(gridCheck)));
+		System.out.println(Arrays.toString((verifier.getFirstGrid(gridCheck))));
 	}
 }

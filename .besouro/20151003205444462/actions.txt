@@ -85,3 +85,5 @@ RefactoringAction 1443897118048 TestSudokuVerifier.java REMOVE import com.sun.xm
 RefactoringAction 1443897123653 TestSudokuVerifier.java ADD import java.lang.reflect.Array IMPORT
 RefactoringAction 1443897162105 TestSudokuVerifier.java RENAME import java.lang.reflect.Array=>import java.util.Arrays IMPORT
 EditAction 1443897165351 TestSudokuVerifier.java 2179 10 11 9
+CompilationAction 1443897165724 TestSudokuVerifier.java
+EditAction 1443897216766 TestSudokuVerifier.java 2182 10 11 9
