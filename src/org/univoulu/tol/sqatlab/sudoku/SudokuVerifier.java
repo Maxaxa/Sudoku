@@ -105,7 +105,7 @@ public class SudokuVerifier {
 			System.out.print(i+(singleGrid.length-3)*counter);
 			}
 			counter++;
-		//	System.out.println();
+			System.out.println();
 		}
 		System.out.println(Arrays.toString(singleGrid));
 		return singleGrid;
