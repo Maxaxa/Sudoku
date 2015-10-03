@@ -85,9 +85,14 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int [][] subGrids = new int[9][9];
 		
 		int [][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
-		
-		for(int i = 0; i<3;i++)
-		
+		int counter = 0;
+		for(int i = 0; i<3;i++){
+			for(int j = 0; j<3;j++){
+				subGrids[0][counter] = digitArray[i][j];
+				counter++;
+			}
+		}
+		System.out.println(Arrays.toString(subGrids[0]));
 		return subGrids;
 		
 	}

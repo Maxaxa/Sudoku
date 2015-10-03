@@ -402,3 +402,7 @@ EditAction 1443910200811 SudokuVerifier.java 2922 8 22 0
 CompilationAction 1443910201240 TestSudokuVerifier.java
 RefactoringAction 1443910219309 SudokuVerifier.java ADD int METHOD
 EditAction 1443910566140 SudokuVerifier.java 2781 9 25 0
+CompilationAction 1443910566540 SudokuVerifier.java
+UnitTestCaseAction 1443910792390 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443910792391 TestSudokuVerifier FAIL
+EditAction 1443910897800 SudokuVerifier.java 2949 9 28 0
