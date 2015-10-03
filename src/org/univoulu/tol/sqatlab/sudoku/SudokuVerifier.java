@@ -76,8 +76,9 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 
 	public boolean verifyRule2(String candidateSolution) {
-		boolean digitIsRight
-		return true;
+		boolean digitIsRight;
+		
+		return digitIsRight;
 	}
 
 
