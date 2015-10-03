@@ -68,9 +68,15 @@ public class TestSudokuVerifier {
 		assertEquals (false, verifier.verifyRule2(incorrectSolution));
 	}
 	@Test
-	public void getSubGrid_gridCeck_subGrid1_return123123123(){
+	public void getSubGrid_gridCeck_subGridTopLeft_return123123123(){
 	int[][] subGrids= verifier.getSubGrids(gridCheck);
 		assertEquals ("[1, 2, 3, 1, 2, 3, 1, 2, 3]", Arrays.toString(subGrids[1]));
+		
+	}
+	@Test
+	public void getSubGrid_gridCeck_subGridBottomRight_return789789789(){
+	int[][] subGrids= verifier.getSubGrids(gridCheck);
+		assertEquals ("[7, 8, 9, 7, 8, 9, 7, 8, 9]", Arrays.toString(subGrids[1]));
 		
 	}
 }
