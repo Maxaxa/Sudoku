@@ -324,3 +324,6 @@ RefactoringAction 1443906947987 SudokuVerifier.java ADD void getSingleGrid(int M
 RefactoringAction 1443906978285 SudokuVerifier.java REMOVE getSingleGrid(int METHOD
 RefactoringAction 1443907046894 SudokuVerifier.java ADD int METHOD
 EditAction 1443907322169 SudokuVerifier.java 2729 9 24 0
+UnitTestCaseAction 1443907323539 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443907323540 TestSudokuVerifier FAIL
+EditAction 1443907343783 SudokuVerifier.java 2730 9 23 0
