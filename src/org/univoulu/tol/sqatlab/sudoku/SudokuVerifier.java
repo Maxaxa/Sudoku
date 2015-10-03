@@ -105,6 +105,7 @@ public class SudokuVerifier {
 			}
 			System.out.println();
 		}
+		System.out.println(Arrays.toString(singleGrid));
 		return singleGrid;
 	}
 	
