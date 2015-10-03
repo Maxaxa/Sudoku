@@ -185,3 +185,6 @@ RefactoringAction 1443901619869 TestSudokuVerifier.java RENAME getSubGrid_gridCe
 RefactoringAction 1443901622877 TestSudokuVerifier.java RENAME getSubGrid_gridCeck__return123123123()=>void getSubGrid_gridCeck_s_return123123123() METHOD
 RefactoringAction 1443901625384 TestSudokuVerifier.java RENAME getSubGrid_gridCeck_s_return123123123()=>void getSubGrid_gridCeck_subGrid1_return123123123() METHOD
 EditAction 1443901650378 TestSudokuVerifier.java 2150 10 11 9
+CompilationAction 1443901650589 TestSudokuVerifier.java
+RefactoringAction 1443901766007 SudokuVerifier.java RENAME getSubGrid(String)=>int METHOD
+EditAction 1443901772929 SudokuVerifier.java 1956 8 21 0
