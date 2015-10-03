@@ -75,7 +75,7 @@ public class SudokuVerifier {
 				firstGrid[i] = digits[i*j];
 			}
 		}
-		System.out.println(Arrays.toString(firstGrid));
+		//System.out.println(Arrays.toString(firstGrid));
 		return firstGrid;
 	}
 	

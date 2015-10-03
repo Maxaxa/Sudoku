@@ -87,3 +87,6 @@ RefactoringAction 1443897162105 TestSudokuVerifier.java RENAME import java.lang.
 EditAction 1443897165351 TestSudokuVerifier.java 2179 10 11 9
 CompilationAction 1443897165724 TestSudokuVerifier.java
 EditAction 1443897216766 TestSudokuVerifier.java 2182 10 11 9
+UnitTestCaseAction 1443897220726 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443897220727 TestSudokuVerifier FAIL
+EditAction 1443897269277 SudokuVerifier.java 1911 8 20 0
