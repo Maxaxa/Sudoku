@@ -1,5 +1,7 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
+import java.util.Arrays;
+
 public class SudokuVerifier {
 
 	public SudokuVerifier(){
@@ -73,7 +75,7 @@ public class SudokuVerifier {
 				firstGrid[i] = digits[i*j];
 			}
 		}
-		System.out.println(firstGrid.toString());
+		System.out.println(Arrays.toString(firstGrid));
 		return firstGrid;
 	}
 	
