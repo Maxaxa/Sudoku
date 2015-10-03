@@ -40,7 +40,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int [] digits = solutionToIntArray(candidateSolution);
 		for (int i = 0; i<columnLength;i++ ){
 			for (int j = 0; j<digits.length;j++ ){
-				digitArray[i][j%9] = digits[j];
+				digitArray[i][j] = digits[i];
 			}
 			//System.out.println(Arrays.toString(digitArray[i%9]));
 		}
