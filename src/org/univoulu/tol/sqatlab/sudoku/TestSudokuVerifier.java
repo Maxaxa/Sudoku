@@ -59,7 +59,11 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerfyRule2(){
+	public void testVerfyRule2_correctString_returnTrue(){
 		assertEquals (true, verifier.verifyRule2(correctSolution));
+	}
+	@Test
+	public void testVerfyRule2_incorrectString_returnFalse(){
+		assertEquals (false, verifier.verifyRule2(incorrectSolution));
 	}
 }

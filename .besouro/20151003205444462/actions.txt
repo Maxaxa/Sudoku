@@ -1,0 +1,21 @@
+FileOpenedAction 1443894885393 SudokuVerifier.java 1575 7 16 0
+UnitTestCaseAction 1443894942044 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443894942072 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443894983484 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443894983485 TestSudokuVerifier OK
+UnitTestCaseAction 1443894989251 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443894989252 TestSudokuVerifier OK
+RefactoringAction 1443895012927 TestSudokuVerifier.java ADD void testVerfyRule2()/2 METHOD
+RefactoringAction 1443895025459 TestSudokuVerifier.java RENAME testVerfyRule2()/2=>void testVerfyRule2_() METHOD
+RefactoringAction 1443895028476 TestSudokuVerifier.java RENAME testVerfyRule2_()=>void testVerfyRule2_correct() METHOD
+RefactoringAction 1443895033498 TestSudokuVerifier.java RENAME testVerfyRule2_correct()=>void testVerfyRule2_correctString() METHOD
+RefactoringAction 1443895035014 TestSudokuVerifier.java RENAME testVerfyRule2_correctString()=>void testVerfyRule2_correctString_() METHOD
+RefactoringAction 1443895040533 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_()=>void testVerfyRule2_correctString_return() METHOD
+RefactoringAction 1443895042550 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_return()=>void testVerfyRule2_correctString_returnTrue() METHOD
+RefactoringAction 1443895050575 TestSudokuVerifier.java RENAME testVerfyRule2()=>void testVerfyRule2_correctString_returnTrue()/2 METHOD
+RefactoringAction 1443895053099 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_returnTrue()/2=>void testVerfyRule2_correctString_return() METHOD
+RefactoringAction 1443895054615 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_return()=>void testVerfyRule2_correctString_returnFalse() METHOD
+RefactoringAction 1443895058146 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_returnFalse()=>void testVerfyRule2_coString_returnFalse() METHOD
+RefactoringAction 1443895059670 TestSudokuVerifier.java RENAME testVerfyRule2_coString_returnFalse()=>void testVerfyRule2_String_returnFalse() METHOD
+RefactoringAction 1443895063712 TestSudokuVerifier.java RENAME testVerfyRule2_String_returnFalse()=>void testVerfyRule2_incorrectString_returnFalse() METHOD
+EditAction 1443895069828 TestSudokuVerifier.java 1809 9 9 8
