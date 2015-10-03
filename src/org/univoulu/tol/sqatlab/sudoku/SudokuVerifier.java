@@ -38,9 +38,9 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int columnLength = 9;
 		int[][] digitArray = new int[rowLength][columnLength];
 		int [] digits = solutionToIntArray(candidateSolution);
-		for (int i = 0; i<digits.length;i++ ){
-			for (int j = 0; j<rowLength;j++ ){
-				digitArray[i%9][j] = digits[i];
+		for (int i = 0; i<columnLength;i++ ){
+			for (int j = 0; j<digits.length;j++ ){
+				digitArray[i][j%9] = digits[j];
 			}
 			//System.out.println(Arrays.toString(digitArray[i%9]));
 		}
