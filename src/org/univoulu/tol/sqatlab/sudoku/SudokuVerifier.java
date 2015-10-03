@@ -78,7 +78,7 @@ public class SudokuVerifier {
 	}
 
 
-	public int[][] getSubGrids(String candidateSolution) {
+	/*public int[][] getSubGrids(String candidateSolution) {
 		
 		int [][] subGrids = new int[9][9];
 		
@@ -91,10 +91,10 @@ public class SudokuVerifier {
 			//System.out.println(Arrays.toString(subGrids[s]));
 		}
 		return subGrids;
-	}
+	}*/
 
 
-	public int[] getSingleGrid(String candidateSolution, int startingpoint) {
+	/*public int[] getSingleGrid(String candidateSolution, int startingpoint) {
 		int[] singleGrid = new int [9];
 		int[] digits = solutionToIntArray(candidateSolution);		
 		int counter = 0;
@@ -109,6 +109,6 @@ public class SudokuVerifier {
 		}
 		System.out.println(Arrays.toString(singleGrid));
 		return singleGrid;
-	}
+	}*/
 	
 }

@@ -387,3 +387,12 @@ EditAction 1443909323883 SudokuVerifier.java 2841 9 25 0
 UnitTestCaseAction 1443909324916 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443909324916 TestSudokuVerifier FAIL
 EditAction 1443909380166 SudokuVerifier.java 2855 9 25 0
+UnitTestCaseAction 1443909381363 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443909381363 TestSudokuVerifier FAIL
+RefactoringAction 1443909644255 SudokuVerifier.java RENAME getSingleGrid(String, int)=>int FIELD
+RefactoringAction 1443909655781 SudokuVerifier.java REMOVE digits FIELD
+RefactoringAction 1443909655782 SudokuVerifier.java REMOVE j FIELD
+RefactoringAction 1443909655782 SudokuVerifier.java REMOVE singleGrid FIELD
+RefactoringAction 1443909655782 SudokuVerifier.java REMOVE counter FIELD
+RefactoringAction 1443909664296 SudokuVerifier.java REMOVE getSubGrids(String) METHOD
+EditAction 1443909671150 SudokuVerifier.java 2863 7 16 0
