@@ -80,3 +80,6 @@ EditAction 1443916459025 SudokuVerifier.java 3329 9 33 0
 UnitTestCaseAction 1443916460035 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443916460036 TestSudokuVerifier.testVerfyRule2_correctString_returnTrue FAIL
 EditAction 1443916561156 SudokuVerifier.java 3325 9 33 0
+UnitTestCaseAction 1443916562193 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916562194 TestSudokuVerifier.testVerfyRule2_correctString_returnTrue OK
+EditAction 1443916576370 SudokuVerifier.java 3293 9 33 0
