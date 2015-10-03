@@ -172,3 +172,8 @@ UnitTestCaseAction 1443899995659 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443899995660 TestSudokuVerifier FAIL
 EditAction 1443900438631 SudokuVerifier.java 1914 8 20 0
 EditAction 1443901014124 SudokuVerifier.java 1919 8 20 0
+RefactoringAction 1443901034802 TestSudokuVerifier.java REMOVE getFirstSubGrid_gridCeck_return123123123() METHOD
+RefactoringAction 1443901051845 TestSudokuVerifier.java ADD void getFirstSubGrid_gridCeck_return123123123() METHOD
+RefactoringAction 1443901071845 SudokuVerifier.java RENAME getFirstGrid(String)=>int METHOD
+RefactoringAction 1443901087140 TestSudokuVerifier.java RENAME getFirstSubGrid_gridCeck_return123123123()=>void getSubGrid_gridCeck_return123123123() METHOD
+EditAction 1443901091348 TestSudokuVerifier.java 2109 10 10 9

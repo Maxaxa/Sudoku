@@ -68,9 +68,9 @@ public class TestSudokuVerifier {
 		assertEquals (false, verifier.verifyRule2(incorrectSolution));
 	}
 	@Test
-	public void getFirstSubGrid_gridCeck_return123123123(){
+	public void getSubGrid_gridCeck_return123123123(){
 	
-		assertEquals ("[1, 2, 3, 1, 2, 3, 1, 2, 3]", Arrays.toString(verifier.getFirstGrid(gridCheck)));
+		assertEquals ("[1, 2, 3, 1, 2, 3, 1, 2, 3]", Arrays.toString(verifier.getSubGrid(gridCheck)));
 		
 	}
 }
