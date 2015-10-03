@@ -63,5 +63,11 @@ public class SudokuVerifier {
 	public boolean verifyRule2(String candidateSolution) {
 		return true;
 	}
+
+
+	public int[] getFirstGrid(String gridCheck) {
+		
+		return null;
+	}
 	
 }

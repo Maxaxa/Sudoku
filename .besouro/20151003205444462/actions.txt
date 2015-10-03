@@ -22,3 +22,32 @@ EditAction 1443895069828 TestSudokuVerifier.java 1809 9 9 8
 UnitTestCaseAction 1443895076205 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443895076206 TestSudokuVerifier FAIL
 EditAction 1443895132306 SudokuVerifier.java 1540 7 16 0
+RefactoringAction 1443895335638 TestSudokuVerifier.java ADD void get FIELD
+RefactoringAction 1443895338163 TestSudokuVerifier.java RENAME get=>void getSub FIELD
+RefactoringAction 1443895340690 TestSudokuVerifier.java RENAME getSub=>void getSubGrid FIELD
+RefactoringAction 1443895357515 TestSudokuVerifier.java RENAME getSubGrid=>void getSubGrid_ FIELD
+RefactoringAction 1443895361028 TestSudokuVerifier.java RENAME getSubGrid_=>void getSubGrid_correct FIELD
+RefactoringAction 1443895364038 TestSudokuVerifier.java RENAME getSubGrid_correct=>void getSubGrid_correctString FIELD
+RefactoringAction 1443895366056 TestSudokuVerifier.java RENAME getSubGrid_correctString=>void getSubGrid_correctString_ FIELD
+RefactoringAction 1443895368080 TestSudokuVerifier.java RENAME getSubGrid_correctString_=>void getSubGrid_correctString_return FIELD
+RefactoringAction 1443895641974 TestSudokuVerifier.java ADD String gr FIELD
+RefactoringAction 1443895642997 TestSudokuVerifier.java RENAME gr=>String grid FIELD
+RefactoringAction 1443895647014 TestSudokuVerifier.java RENAME grid=>String gridSol FIELD
+RefactoringAction 1443895651555 TestSudokuVerifier.java RENAME gridSol=>String grid FIELD
+RefactoringAction 1443895653071 TestSudokuVerifier.java RENAME grid=>String gridcheck FIELD
+RefactoringAction 1443895767966 TestSudokuVerifier.java RENAME getSubGrid_correctString_return=>void getSubGrid_correctString_return() METHOD
+RefactoringAction 1443895777514 TestSudokuVerifier.java RENAME getSubGrid_correctString_return()=>void getSubGrid1_correctString_return() METHOD
+RefactoringAction 1443895779530 TestSudokuVerifier.java RENAME getSubGrid1_correctString_return()=>void getSubGrid_correctString_return() METHOD
+RefactoringAction 1443895783039 TestSudokuVerifier.java RENAME getSubGrid_correctString_return()=>void getFirstSubGrid_correctString_return() METHOD
+RefactoringAction 1443895791078 TestSudokuVerifier.java RENAME getFirstSubGrid_correctString_return()=>void getFirstSubGrid_g_return() METHOD
+RefactoringAction 1443895793097 TestSudokuVerifier.java RENAME getFirstSubGrid_g_return()=>void getFirstSubGrid_grid_return() METHOD
+RefactoringAction 1443895795613 TestSudokuVerifier.java RENAME getFirstSubGrid_grid_return()=>void getFirstSubGrid_grid_chec_return() METHOD
+RefactoringAction 1443895798145 TestSudokuVerifier.java RENAME getFirstSubGrid_grid_chec_return()=>void getFirstSubGrid_grid_return() METHOD
+RefactoringAction 1443895804664 TestSudokuVerifier.java RENAME gridcheck=>String gridCheck FIELD
+RefactoringAction 1443895809179 TestSudokuVerifier.java RENAME getFirstSubGrid_grid_return()=>void getFirstSubGrid_gridCeck_return() METHOD
+RefactoringAction 1443895816195 TestSudokuVerifier.java RENAME getFirstSubGrid_gridCeck_return()=>void getFirstSubGrid_gridCeck_return13() METHOD
+RefactoringAction 1443895817702 TestSudokuVerifier.java RENAME getFirstSubGrid_gridCeck_return13()=>void getFirstSubGrid_gridCeck_return123() METHOD
+RefactoringAction 1443895822211 TestSudokuVerifier.java RENAME getFirstSubGrid_gridCeck_return123()=>void getFirstSubGrid_gridCeck_return123123() METHOD
+RefactoringAction 1443895823728 TestSudokuVerifier.java RENAME getFirstSubGrid_gridCeck_return123123()=>void getFirstSubGrid_gridCeck_return123123123() METHOD
+RefactoringAction 1443895925427 SudokuVerifier.java ADD Object getFirstGrid(String) METHOD
+EditAction 1443895961256 SudokuVerifier.java 1616 8 17 0
