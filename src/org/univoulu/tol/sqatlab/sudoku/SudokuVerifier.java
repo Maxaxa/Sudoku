@@ -44,6 +44,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				
 				digitArray[i][j] = digits[counter];
 				counter++;
+				System.out.print(counter);
 			}
 			//System.out.println(Arrays.toString(digitArray[i%9]));
 		}
