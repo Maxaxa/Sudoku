@@ -33,7 +33,7 @@ public class SudokuVerifier {
 		return digits;
 		
 	}
-public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
+/*public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int rowLength = 9;
 		int columnLength = 9;
 		int[][] digitArray = new int[rowLength][columnLength];
@@ -43,7 +43,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 		return digits;
 		
-	}
+	}*/
 	
 	
 	public boolean verifyRule1(String candidateSolution) {
@@ -79,21 +79,32 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 
 	public int[][] getSubGrids(String candidateSolution) {
-		int[] digits = solutionToIntArray(candidateSolution);
+		
 		int [][] subGrids = new int[9][9];
-		int[] singleGrid = new int [9];
+		
+		int[] singleGrid = new int[9];
 		for(int s = 0; s < 9; s++){
-			for(int j = 0; j<3;j++){
-				for(int i = 0+(j*3)%singleGrid.length; i<(singleGrid.length/3)*((j%3)+1);i++){
-				
-					singleGrid[i] = digits[i+(singleGrid.length-3)*j];
-				
-				}
+			for(int startingpoint=0;startingpoint<3;startingpoint++){
+				singleGrid = getSingleGrid(candidateSolution, startingpoint);
 			}
 			subGrids[s] = singleGrid;
 			System.out.println(Arrays.toString(subGrids[s]));
 		}
 		return subGrids;
+	}
+
+
+	public int[] getSingleGrid(String candidateSolution, int startingpoint) {
+		int[] singleGrid = new int [9];
+		int[] digits = solutionToIntArray(candidateSolution);
+		for(int j = startingpoint; j<3;j++){
+			for(int i = 0+(j*3)%singleGrid.length; i<(singleGrid.length/3)*((j%3)+1);i++){
+			
+				singleGrid[i] = digits[i+(singleGrid.length-3)*j];
+			
+			}
+		}
+		return singleGrid;
 	}
 	
 }

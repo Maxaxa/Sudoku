@@ -307,3 +307,20 @@ EditAction 1443905711030 SudokuVerifier.java 2387 9 24 0
 CompilationAction 1443905711436 SudokuVerifier.java
 CompilationAction 1443905727730 SudokuVerifier.java
 EditAction 1443905875573 SudokuVerifier.java 2437 9 26 0
+CompilationAction 1443905875953 SudokuVerifier.java
+RefactoringAction 1443906484400 SudokuVerifier.java REMOVE verifyRule1(String) METHOD
+RefactoringAction 1443906484401 SudokuVerifier.java REMOVE verifyRule2(String) METHOD
+RefactoringAction 1443906484401 SudokuVerifier.java REMOVE solutionToTwoDimensianalIntArray(String) METHOD
+RefactoringAction 1443906484402 SudokuVerifier.java REMOVE getSubGrids(String) METHOD
+RefactoringAction 1443906484402 SudokuVerifier.java REMOVE isDigitPositive(String, boolean) METHOD
+RefactoringAction 1443906487413 SudokuVerifier.java ADD boolean verifyRule1(String) METHOD
+RefactoringAction 1443906487414 SudokuVerifier.java ADD boolean isDigitPositive(String, boolean) METHOD
+RefactoringAction 1443906487415 SudokuVerifier.java ADD boolean verifyRule2(String) METHOD
+RefactoringAction 1443906487415 SudokuVerifier.java ADD int METHOD
+CompilationAction 1443906491253 SudokuVerifier.java
+UnitTestCaseAction 1443906495187 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443906495188 TestSudokuVerifier FAIL
+RefactoringAction 1443906947987 SudokuVerifier.java ADD void getSingleGrid(int METHOD
+RefactoringAction 1443906978285 SudokuVerifier.java REMOVE getSingleGrid(int METHOD
+RefactoringAction 1443907046894 SudokuVerifier.java ADD int METHOD
+EditAction 1443907322169 SudokuVerifier.java 2729 9 24 0
