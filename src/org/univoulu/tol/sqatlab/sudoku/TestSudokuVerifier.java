@@ -13,6 +13,7 @@ public class TestSudokuVerifier {
 	String noSolution = "";
 	String negativSolution = "41-369-25632158947958724316825437169791586432346912758289643571573291684164875293";
 	String incorrectSolution = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
+	String gridCheck = "123456789123456789123456789123456789123456789123456789123456789123456789123456789";
 	
 	private SudokuVerifier verifier;
 	
@@ -65,5 +66,9 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerfyRule2_incorrectString_returnFalse(){
 		assertEquals (false, verifier.verifyRule2(incorrectSolution));
+	}
+	@Test
+	public void getFirstSubGrid_gridCeck_return123123123(){
+		assertEquals (123123123, verifier.getFirstGrid(gridCheck));
 	}
 }
