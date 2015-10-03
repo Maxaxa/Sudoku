@@ -33,17 +33,19 @@ public class SudokuVerifier {
 		return digits;
 		
 	}
-/*public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
+public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int rowLength = 9;
 		int columnLength = 9;
 		int[][] digitArray = new int[rowLength][columnLength];
+		int [] digits = solutionToIntArray(candidateSolution);
 		for (int i = 0; i<digits.length;i++ ){
-			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
+			for (int j = 0; j<rowLength;j++ ){
+				digitArray[i%9][j] = digits[i];
+			}
 		}
-
-		return digits;
+		return digitArray;
 		
-	}*/
+	}
 	
 	
 	public boolean verifyRule1(String candidateSolution) {

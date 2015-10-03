@@ -396,3 +396,6 @@ RefactoringAction 1443909655782 SudokuVerifier.java REMOVE singleGrid FIELD
 RefactoringAction 1443909655782 SudokuVerifier.java REMOVE counter FIELD
 RefactoringAction 1443909664296 SudokuVerifier.java REMOVE getSubGrids(String) METHOD
 EditAction 1443909671150 SudokuVerifier.java 2863 7 16 0
+CompilationAction 1443909671675 TestSudokuVerifier.java
+RefactoringAction 1443909695360 SudokuVerifier.java ADD int METHOD
+EditAction 1443910200811 SudokuVerifier.java 2922 8 22 0
