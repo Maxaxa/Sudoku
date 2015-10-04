@@ -131,7 +131,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	}
 
 
-	public Object verifyRule3(String incorrectSolution) {
+	public boolean verifyRule3(String incorrectSolution) {
 		// TODO Auto-generated method stub
 		return true;
 	}
