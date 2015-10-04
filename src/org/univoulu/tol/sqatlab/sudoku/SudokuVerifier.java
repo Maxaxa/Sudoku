@@ -129,5 +129,11 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		return subGrids;
 		
 	}
+
+
+	public Object verifyRule3(String incorrectSolution) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
