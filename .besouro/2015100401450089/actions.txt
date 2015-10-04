@@ -95,3 +95,21 @@ EditAction 1443916701896 SudokuVerifier.java 3297 9 32 0
 UnitTestCaseAction 1443916704135 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443916704135 TestSudokuVerifier FAIL
 EditAction 1443916728927 SudokuVerifier.java 3297 9 32 0
+UnitTestCaseAction 1443916732884 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916732884 TestSudokuVerifier OK
+UnitTestCaseAction 1443916738338 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916738338 TestSudokuVerifier OK
+UnitTestCaseAction 1443916745040 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916745041 TestSudokuVerifier.getSubGrid_gridCeck_subGridTopLeft_return123123123 OK
+UnitTestCaseAction 1443916749324 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916749325 TestSudokuVerifier.getSubGrid_gridCeck_subGridTopMid_return456456456 OK
+UnitTestCaseAction 1443916753650 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443916753651 TestSudokuVerifier OK
+RefactoringAction 1443916814865 TestSudokuVerifier.java ADD void testVerfyRule2_incorrectString_returnFalse()/2 METHOD
+RefactoringAction 1443916819876 TestSudokuVerifier.java RENAME testVerfyRule2_incorrectString_returnFalse()/2=>void testVerfyRule3_incorrectString_returnFalse() METHOD
+RefactoringAction 1443916830054 TestSudokuVerifier.java ADD void testVerfyRule2_incorrectString_returnFalse()/2 METHOD
+RefactoringAction 1443916833564 TestSudokuVerifier.java RENAME testVerfyRule2_incorrectString_returnFalse()/2=>void testVerfyRule3_incorrectString_returnFalse()/2 METHOD
+RefactoringAction 1443916839578 TestSudokuVerifier.java RENAME testVerfyRule3_incorrectString_returnFalse()/2=>void testVerfyRule3_correctString_returnFalse() METHOD
+RefactoringAction 1443916844088 TestSudokuVerifier.java RENAME testVerfyRule3_correctString_returnFalse()=>void testVerfyRule3_correctString_return() METHOD
+RefactoringAction 1443916846095 TestSudokuVerifier.java RENAME testVerfyRule3_correctString_return()=>void testVerfyRule3_correctString_returnTrue() METHOD
+EditAction 1443916859559 TestSudokuVerifier.java 2854 14 17 13

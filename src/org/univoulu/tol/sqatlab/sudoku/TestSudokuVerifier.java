@@ -83,4 +83,12 @@ public class TestSudokuVerifier {
 	int[][] subGrids= verifier.getSubGrids(gridCheck);
 		assertEquals ("[7, 8, 9, 7, 8, 9, 7, 8, 9]", Arrays.toString(subGrids[8]));
 	}
+	@Test
+	public void testVerfyRule3_correctString_returnTrue(){
+		assertEquals (true, verifier.verifyRule3(incorrectSolution));
+	}
+	@Test
+	public void testVerfyRule3_incorrectString_returnFalse(){
+		assertEquals (false, verifier.verifyRule3(incorrectSolution));
+	}
 }
