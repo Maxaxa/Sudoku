@@ -133,7 +133,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 	public Object verifyRule3(String incorrectSolution) {
 		// TODO Auto-generated method stub
-		return null;
+		return true;
 	}
 	
 }
