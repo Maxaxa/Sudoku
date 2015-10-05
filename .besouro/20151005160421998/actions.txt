@@ -84,3 +84,12 @@ RefactoringAction 1444052908851 TestSudokuVerifier.java RENAME testVerfyRule3_in
 RefactoringAction 1444052921366 TestSudokuVerifier.java RENAME testVerfyRule3_incorrectString_returnFalse()=>void testVerfyRule3_incorrectRow_returnFalse() METHOD
 EditAction 1444052936552 SudokuVerifier.java 4030 10 37 0
 EditAction 1444052936872 TestSudokuVerifier.java 3221 16 19 15
+CompilationAction 1444052937195 TestSudokuVerifier.java
+RefactoringAction 1444052968032 TestSudokuVerifier.java RENAME testVerfyRule3_correctString_returnTrue()=>void testVerfyRule3_correctSolutio_returnTrue() METHOD
+RefactoringAction 1444052969044 TestSudokuVerifier.java RENAME testVerfyRule3_correctSolutio_returnTrue()=>void testVerfyRule3_correctSolutiob_returnTrue() METHOD
+RefactoringAction 1444052970559 TestSudokuVerifier.java RENAME testVerfyRule3_correctSolutiob_returnTrue()=>void testVerfyRule3_correctSolution_returnTrue() METHOD
+RefactoringAction 1444052977075 TestSudokuVerifier.java RENAME testVerfyRule2_incorrectString_returnFalse()=>void testVerfyRule2_incorrectSol_returnFalse() METHOD
+RefactoringAction 1444052978585 TestSudokuVerifier.java RENAME testVerfyRule2_incorrectSol_returnFalse()=>void testVerfyRule2_incorrectSolution_returnFalse() METHOD
+RefactoringAction 1444052990102 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_returnTrue()=>void testVerfyRule2_correctSolution_returnTrue() METHOD
+RefactoringAction 1444052998781 SudokuVerifier.java ADD Object verifyRule4(String) METHOD
+EditAction 1444053002121 SudokuVerifier.java 4144 11 38 0

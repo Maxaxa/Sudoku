@@ -164,5 +164,10 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		}
 		return digitIsRight;
 	}
+
+	public Object verifyRule4(String correctSolution) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
