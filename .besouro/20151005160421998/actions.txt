@@ -93,3 +93,7 @@ RefactoringAction 1444052978585 TestSudokuVerifier.java RENAME testVerfyRule2_in
 RefactoringAction 1444052990102 TestSudokuVerifier.java RENAME testVerfyRule2_correctString_returnTrue()=>void testVerfyRule2_correctSolution_returnTrue() METHOD
 RefactoringAction 1444052998781 SudokuVerifier.java ADD Object verifyRule4(String) METHOD
 EditAction 1444053002121 SudokuVerifier.java 4144 11 38 0
+CompilationAction 1444053002836 TestSudokuVerifier.java
+UnitTestCaseAction 1444053003547 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053003548 TestSudokuVerifier FAIL
+EditAction 1444053012182 SudokuVerifier.java 4144 11 38 0

@@ -167,7 +167,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 	public Object verifyRule4(String correctSolution) {
 		// TODO Auto-generated method stub
-		return null;
+		return true;
 	}
 	
 }

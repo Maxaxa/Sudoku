@@ -61,11 +61,11 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testVerfyRule2_correctString_returnTrue(){
+	public void testVerfyRule2_correctSolution_returnTrue(){
 		assertEquals (true, verifier.verifyRule2(correctSolution));
 	}
 	@Test
-	public void testVerfyRule2_incorrectString_returnFalse(){
+	public void testVerfyRule2_incorrectSolution_returnFalse(){
 		assertEquals (false, verifier.verifyRule2(incorrectSolution));
 	}
 	@Test
@@ -85,7 +85,7 @@ public class TestSudokuVerifier {
 		assertEquals ("[7, 8, 9, 7, 8, 9, 7, 8, 9]", Arrays.toString(subGrids[8]));
 	}
 	@Test
-	public void testVerfyRule3_correctString_returnTrue(){
+	public void testVerfyRule3_correctSolution_returnTrue(){
 		assertEquals (true, verifier.verifyRule3(correctSolution));
 	}
 	@Test
@@ -94,10 +94,10 @@ public class TestSudokuVerifier {
 	}
 	@Test
 	public void testVerfyRule4_correctString_returnTrue(){
-		assertEquals (true, verifier.verifyRule3(correctSolution));
+		assertEquals (true, verifier.verifyRule4(correctSolution));
 	}
 	@Test
 	public void testVerfyRule4_incorrectString_returnFalse(){
-		assertEquals (false, verifier.verifyRule3(incorrectString));
+		assertEquals (false, verifier.verifyRule4(incorrectSolution));
 	}
 }
