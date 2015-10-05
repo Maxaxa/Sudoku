@@ -147,9 +147,9 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				counter++;
 			}
 			int[] allNumbersCheck = new int[9];
-			for(int d=0; d<9;d++){
+			for(int r=0; r<9;r++){
 				for(int count=1; count<10;count++){
-					if(digits[d] == count){
+					if(rows[r] == count){
 						allNumbersCheck[count-1]=count;
 					}
 				}
