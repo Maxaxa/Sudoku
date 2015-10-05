@@ -30,6 +30,7 @@ public class SudokuVerifier {
 		int[] digits = new int[candidateSolution.length()];
 		for (int i = 0; i<digits.length;i++ ){
 			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
+			System.out.print(digits[i]);
 		}
 
 		return digits;
@@ -138,7 +139,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int counter = 0;
 		int [] rows = new int[rowLength];
 		while (counter<digits.length){
-			System.out.print(digits[counter]);
+		//	System.out.print(digits[counter]);
 			for(int i = 0; i<rowLength; i++){
 				rows[i] = digits[counter];
 				counter++;
