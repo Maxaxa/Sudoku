@@ -55,3 +55,4 @@ UnitTestSessionAction 1444051915864 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444051930020 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444051930021 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testVerfyRule3_correctString_returnTrue FAIL
 EditAction 1444051970998 SudokuVerifier.java 3780 10 36 0
+EditAction 1444051993850 SudokuVerifier.java 3748 10 36 0

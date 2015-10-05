@@ -141,13 +141,13 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int counter = 0;
 		int [] rows = new int[rowLength];
 		while (counter<digits.length){
-		//	System.out.print(digits[counter]);
+			System.out.print(digits[counter]);
 			for(int i = 0; i<rowLength; i++){
 				rows[i] = digits[counter];
 				counter++;
-				//System.out.print(counter);
+				
 			}
-			//System.out.println();
+			System.out.println();
 		}
 		return digitIsRight;
 	}
