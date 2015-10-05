@@ -48,3 +48,10 @@ EditAction 1444051771598 SudokuVerifier.java 3838 10 37 0
 UnitTestCaseAction 1444051774674 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444051774675 TestSudokuVerifier FAIL
 EditAction 1444051889305 SudokuVerifier.java 3925 10 39 0
+UnitTestCaseAction 1444051891527 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444051891528 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444051915863 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444051915864 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444051930020 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444051930021 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testVerfyRule3_correctString_returnTrue FAIL
+EditAction 1444051970998 SudokuVerifier.java 3780 10 36 0
