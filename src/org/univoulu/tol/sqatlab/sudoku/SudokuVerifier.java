@@ -137,7 +137,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int[] digits = solutionToIntArray(candidateSolution);
 		int counter = 0;
 		int [] rows = new int[rowLength];
-		while (counter<=digits.length){
+		while (counter<digits.length){
 			for(int i = 0; i<rowLength; i++){
 				rows[i] = digits[counter];
 				counter++;
