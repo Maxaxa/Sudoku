@@ -30,7 +30,7 @@ public class SudokuVerifier {
 		int[] digits = new int[candidateSolution.length()];
 		for (int i = 0; i<digits.length;i++ ){
 			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
-			System.out.print(digits[i]);
+			
 		}
 
 		return digits;
