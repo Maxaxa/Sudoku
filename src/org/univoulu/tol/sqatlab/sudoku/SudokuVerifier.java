@@ -7,6 +7,8 @@ public class SudokuVerifier {
 	public SudokuVerifier(){
 		
 	}
+	int rowLength = 9;
+	int columnLength = 9;
 	
 	
 	public int verify(String candidateSolution) {
@@ -34,8 +36,7 @@ public class SudokuVerifier {
 		
 	}
 public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
-		int rowLength = 9;
-		int columnLength = 9;
+
 		int counter = 0;
 		int[][] digitArray = new int[rowLength][columnLength];
 		int [] digits = solutionToIntArray(candidateSolution);
@@ -131,9 +132,20 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	}
 
 
-	public boolean verifyRule3(String incorrectSolution) {
-		// TODO Auto-generated method stub
-		return true;
+	public boolean verifyRule3(String candidateSolution) {
+		boolean digitIsRight = false;
+		int[] digits = solutionToIntArray(candidateSolution);
+		int counter = 0;
+		int [] rows = new int[rowLength];
+		while (counter<=digits.length){
+			for(int i = 0; i<rowLength; i++){
+				rows[i] = digits[counter];
+				counter++;
+				System.out.print(rows[i]);
+			}
+			System.out.println();
+		}
+		return digitIsRight;
 	}
 	
 }

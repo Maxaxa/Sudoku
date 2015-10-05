@@ -1,0 +1,7 @@
+FileOpenedAction 1444050262641 SudokuVerifier.java 3416 10 33 0
+UnitTestCaseAction 1444050266711 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444050266719 TestSudokuVerifier FAIL
+FileOpenedAction 1444050272657 TestSudokuVerifier.java 2854 14 17 13
+RefactoringAction 1444050811775 SudokuVerifier.java ADD int rowLength FIELD
+RefactoringAction 1444050811776 SudokuVerifier.java ADD int columnLength FIELD
+EditAction 1444051036363 SudokuVerifier.java 3723 10 36 0
