@@ -104,3 +104,13 @@ RefactoringAction 1444053122235 SudokuVerifier.java ADD Object verifyRule4(Strin
 UnitTestCaseAction 1444053374029 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444053374029 TestSudokuVerifier FAIL
 EditAction 1444053408971 SudokuVerifier.java 4394 11 36 0
+UnitTestCaseAction 1444053411093 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053411094 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444053424152 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053424153 TestSudokuVerifier FAIL
+RefactoringAction 1444053583026 SudokuVerifier.java ADD void checkSortedArrayForNumber1To9(int METHOD
+UnitTestCaseAction 1444053773142 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053773142 TestSudokuVerifier FAIL
+RefactoringAction 1444053876990 SudokuVerifier.java ADD void sortNineDigitSingleArray(int METHOD
+UnitTestCaseAction 1444053917512 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053917513 TestSudokuVerifier FAIL

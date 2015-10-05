@@ -97,14 +97,21 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 					allNumbersCheck[count-1]=count;
 				}
 			}
-			for(int c =1; c <10;c++){
-				if(allNumbersCheck[c-1] != c ){
-					return false;
-				}
+			if(!checkSortedArrayForNumber1To9(allNumbersCheck)){
+				return false;
 			}
 		}
 		
 		return digitIsRight;
+	}
+
+	public boolean checkSortedArrayForNumber1To9(int[] allNumbersCheck) {
+		for(int c =1; c <10;c++){
+			if(allNumbersCheck[c-1] != c ){
+				return false;
+			}
+		}
+		return true;
 	}
 
 
@@ -139,40 +146,30 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int [] rows = new int[rowLength];
 		int[][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
 		
+		int[] allNumbersCheck = new int[9];
 		for(int i = 0; i<rowLength;i++){
 			for(int j = 0; j <columnLength;j++){
 				rows [j] = digitArray[i][j];
-				System.out.print(rows[j]);
+				//System.out.print(rows[j]);
 			}
-			
+			//System.out.println();
+			sortNineDigitSingleArray(rows, allNumbersCheck);
+			if(!checkSortedArrayForNumber1To9(allNumbersCheck)){
+				return false;
+			}
 		}
 		
-	/*	int[] digits = solutionToIntArray(candidateSolution);
-		int counter = 0;
-		
-		int[] allNumbersCheck = new int[9];
-		while (counter<digits.length){
-			
-			for(int i = 0; i<rowLength; i++){
-				rows[i] = digits[counter];
-				counter++;
-			}
-			//System.out.println(Arrays.toString(rows));
-			for(int r=0; r<9;r++){
-				for(int count=1; count<10;count++){
-					if(rows[r] == count){
-						allNumbersCheck[count-1]=count;
-					}
-				}
-			}
-			for(int c =1; c <10;c++){
-				if(allNumbersCheck[c-1] != c ){
-					return false;
-				}
-			}
-			
-		}*/
 		return digitIsRight;
+	}
+
+	public int[] sortNineDigitSingleArray(int[] rows, int[] allNumbersCheck) {
+		for(int r=0; r<9;r++){
+			for(int count=1; count<10;count++)
+				if(rows[r] == count){
+					allNumbersCheck [count-1]=count;
+			}
+		}
+		return allNumbersCheck;
 	}
 
 	public Object verifyRule4(String candidateSolution) {
