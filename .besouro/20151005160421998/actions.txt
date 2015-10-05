@@ -97,3 +97,10 @@ CompilationAction 1444053002836 TestSudokuVerifier.java
 UnitTestCaseAction 1444053003547 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444053003548 TestSudokuVerifier FAIL
 EditAction 1444053012182 SudokuVerifier.java 4144 11 38 0
+UnitTestCaseAction 1444053013521 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053013522 TestSudokuVerifier FAIL
+RefactoringAction 1444053116200 SudokuVerifier.java REMOVE verifyRule4(String) METHOD
+RefactoringAction 1444053122235 SudokuVerifier.java ADD Object verifyRule4(String) METHOD
+UnitTestCaseAction 1444053374029 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444053374029 TestSudokuVerifier FAIL
+EditAction 1444053408971 SudokuVerifier.java 4394 11 36 0

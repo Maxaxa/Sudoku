@@ -136,10 +136,20 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 	public boolean verifyRule3(String candidateSolution) {
 		boolean digitIsRight = true;
-		int[] digits = solutionToIntArray(candidateSolution);
-		
-		int counter = 0;
 		int [] rows = new int[rowLength];
+		int[][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
+		
+		for(int i = 0; i<rowLength;i++){
+			for(int j = 0; j <columnLength;j++){
+				rows [j] = digitArray[i][j];
+				System.out.print(rows[j]);
+			}
+			
+		}
+		
+	/*	int[] digits = solutionToIntArray(candidateSolution);
+		int counter = 0;
+		
 		int[] allNumbersCheck = new int[9];
 		while (counter<digits.length){
 			
@@ -161,11 +171,11 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				}
 			}
 			
-		}
+		}*/
 		return digitIsRight;
 	}
 
-	public Object verifyRule4(String correctSolution) {
+	public Object verifyRule4(String candidateSolution) {
 		// TODO Auto-generated method stub
 		return true;
 	}
