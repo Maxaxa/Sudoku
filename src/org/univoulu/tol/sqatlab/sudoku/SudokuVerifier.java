@@ -147,7 +147,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				rows[i] = digits[counter];
 				counter++;
 			}
-			System.out.println(Arrays.toString(rows));
+			//System.out.println(Arrays.toString(rows));
 			for(int r=0; r<9;r++){
 				for(int count=1; count<10;count++){
 					if(rows[r] == count){

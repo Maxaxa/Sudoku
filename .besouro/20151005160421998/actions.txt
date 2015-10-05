@@ -75,3 +75,11 @@ RefactoringAction 1444052838196 TestSudokuVerifier.java RENAME correctSolution/2
 RefactoringAction 1444052843213 TestSudokuVerifier.java RENAME incorrectSolution/2=>String incorrectRow FIELD
 EditAction 1444052858576 TestSudokuVerifier.java 2961 14 17 13
 EditAction 1444052869077 TestSudokuVerifier.java 2956 14 17 13
+UnitTestCaseAction 1444052871449 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444052871450 TestSudokuVerifier OK
+RefactoringAction 1444052900332 TestSudokuVerifier.java ADD void testVerfyRule3_correctString_returnTrue()/2 METHOD
+RefactoringAction 1444052900333 TestSudokuVerifier.java ADD void testVerfyRule3_incorrectString_returnFalse()/2 METHOD
+RefactoringAction 1444052903841 TestSudokuVerifier.java RENAME testVerfyRule3_correctString_returnTrue()/2=>void testVerfyRule4_correctString_returnTrue() METHOD
+RefactoringAction 1444052908851 TestSudokuVerifier.java RENAME testVerfyRule3_incorrectString_returnFalse()/2=>void testVerfyRule4_incorrectString_returnFalse() METHOD
+RefactoringAction 1444052921366 TestSudokuVerifier.java RENAME testVerfyRule3_incorrectString_returnFalse()=>void testVerfyRule3_incorrectRow_returnFalse() METHOD
+EditAction 1444052936552 SudokuVerifier.java 4030 10 37 0
