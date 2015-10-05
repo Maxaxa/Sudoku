@@ -89,7 +89,15 @@ public class TestSudokuVerifier {
 		assertEquals (true, verifier.verifyRule3(correctSolution));
 	}
 	@Test
-	public void testVerfyRule3_incorrectString_returnFalse(){
+	public void testVerfyRule3_incorrectRow_returnFalse(){
 		assertEquals (false, verifier.verifyRule3(incorrectRow));
+	}
+	@Test
+	public void testVerfyRule4_correctString_returnTrue(){
+		assertEquals (true, verifier.verifyRule3(correctSolution));
+	}
+	@Test
+	public void testVerfyRule4_incorrectString_returnFalse(){
+		assertEquals (false, verifier.verifyRule3(incorrectString));
 	}
 }
