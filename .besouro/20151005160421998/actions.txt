@@ -68,3 +68,9 @@ EditAction 1444052496186 SudokuVerifier.java 3982 10 36 0
 UnitTestCaseAction 1444052498460 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444052498461 TestSudokuVerifier FAIL
 EditAction 1444052659620 SudokuVerifier.java 4028 10 37 0
+UnitTestCaseAction 1444052660596 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444052660596 TestSudokuVerifier FAIL
+RefactoringAction 1444052832185 TestSudokuVerifier.java ADD String correctSolution/2 FIELD
+RefactoringAction 1444052838196 TestSudokuVerifier.java RENAME correctSolution/2=>String incorrectSolution/2 FIELD
+RefactoringAction 1444052843213 TestSudokuVerifier.java RENAME incorrectSolution/2=>String incorrectRow FIELD
+EditAction 1444052858576 TestSudokuVerifier.java 2961 14 17 13
