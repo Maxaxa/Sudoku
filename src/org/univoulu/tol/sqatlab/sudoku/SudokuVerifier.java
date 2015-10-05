@@ -135,7 +135,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 
 	public boolean verifyRule3(String candidateSolution) {
-		boolean digitIsRight = false;
+		boolean digitIsRight = true;
 		int[] digits = solutionToIntArray(candidateSolution);
 		
 		int counter = 0;
@@ -145,8 +145,21 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 			for(int i = 0; i<rowLength; i++){
 				rows[i] = digits[counter];
 				counter++;
-				
 			}
+			int[] allNumbersCheck = new int[9];
+			for(int d=0; d<9;d++){
+				for(int count=1; count<10;count++){
+					if(digits[d] == count){
+						allNumbersCheck[count-1]=count;
+					}
+				}
+			}
+			for(int c =1; c <10;c++){
+				if(allNumbersCheck[c-1] != c ){
+					return false;
+				}
+			}
+			
 		}
 		return digitIsRight;
 	}
