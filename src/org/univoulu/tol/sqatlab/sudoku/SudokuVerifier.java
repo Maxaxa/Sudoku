@@ -140,13 +140,14 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		
 		int counter = 0;
 		int [] rows = new int[rowLength];
+		int[] allNumbersCheck = new int[9];
 		while (counter<digits.length){
 			
 			for(int i = 0; i<rowLength; i++){
 				rows[i] = digits[counter];
 				counter++;
 			}
-			int[] allNumbersCheck = new int[9];
+			System.out.println(Arrays.toString(rows));
 			for(int r=0; r<9;r++){
 				for(int count=1; count<10;count++){
 					if(rows[r] == count){
