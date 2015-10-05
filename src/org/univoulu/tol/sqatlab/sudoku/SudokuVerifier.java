@@ -136,10 +136,11 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	public boolean verifyRule3(String candidateSolution) {
 		boolean digitIsRight = false;
 		int[] digits = solutionToIntArray(candidateSolution);
+		System.out.print(Arrays.toString(digits));
 		int counter = 0;
 		int [] rows = new int[rowLength];
 		while (counter<digits.length){
-			System.out.print(digits[counter]);
+		//	System.out.print(digits[counter]);
 			for(int i = 0; i<rowLength; i++){
 				rows[i] = digits[counter];
 				counter++;
