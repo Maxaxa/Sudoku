@@ -32,6 +32,9 @@ public class SudokuVerifier {
 			digits[i] = Integer.parseInt(String.valueOf(candidateSolution.charAt(i)));
 			
 		}
+		for(int i =0; i<81;i++){
+			System.out.print(digits[i]);
+		}System.out.println();
 
 		return digits;
 		
