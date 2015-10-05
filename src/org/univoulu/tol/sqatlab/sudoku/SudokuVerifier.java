@@ -144,7 +144,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				counter++;
 				//System.out.print(rows[i]);
 			}
-			System.out.println();
+			//System.out.println();
 		}
 		return digitIsRight;
 	}
