@@ -185,7 +185,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		return sortArray;
 	}
 
-	public Object verifyRule4(String candidateSolution) {
+	public boolean verifyRule4(String candidateSolution) {
 		boolean digitIsRight = true;
 		int [] column = new int[columnLength];
 		int[][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
