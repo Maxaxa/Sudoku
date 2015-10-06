@@ -127,14 +127,16 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	public int[][] getSubGrids(String candidateSolution) {
 		
 		int [][] subGrids = new int[9][9];
+		int subGridrowlength = 3;
+		int subGridcolumnlength = 3;
 		
 		int [][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
 		int gridCounter =0;
-		for(int iforward=0; iforward<3;iforward++){
-			for(int jforward=0; jforward<3;jforward++){
+		for(int iforward=0; iforward<subGridrowlength;iforward++){
+			for(int jforward=0; jforward<subGridcolumnlength;jforward++){
 				int counter = 0;
-				for(int i = 0; i<3;i++){
-					for(int j = 0; j<3;j++){
+				for(int i = 0; i<subGridrowlength;i++){
+					for(int j = 0; j<subGridcolumnlength;j++){
 						subGrids[gridCounter][counter] = digitArray[i+(iforward)*3][j+(jforward)*3];
 						counter++;
 					}
