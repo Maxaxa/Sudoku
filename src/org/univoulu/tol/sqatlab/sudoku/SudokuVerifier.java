@@ -177,7 +177,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int [] column = new int[columnLength];
 		int[][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
 		
-		int[] allNumbersCheck = new int[9];
+		int[] allNumbersCheck = new int[columnLength];
 		for(int i = 0; i<rowLength;i++){
 			for(int j = 0; j <columnLength;j++){
 				column [j] = digitArray[j][i];
