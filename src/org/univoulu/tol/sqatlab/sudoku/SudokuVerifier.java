@@ -173,8 +173,24 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	}
 
 	public Object verifyRule4(String candidateSolution) {
-		// TODO Auto-generated method stub
-		return true;
+		boolean digitIsRight = true;
+		int [] rows = new int[rowLength];
+		int[][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
+		
+		int[] allNumbersCheck = new int[9];
+		for(int i = 0; i<rowLength;i++){
+			for(int j = 0; j <columnLength;j++){
+				rows [j] = digitArray[j][i];
+				System.out.print(rows[j]);
+			}
+			System.out.println();
+			sortNineDigitSingleArray(rows, allNumbersCheck);
+			if(!checkSortedArrayForNumber1To9(allNumbersCheck)){
+				return false;
+			}
+		}
+		
+		return digitIsRight;
 	}
 	
 }
