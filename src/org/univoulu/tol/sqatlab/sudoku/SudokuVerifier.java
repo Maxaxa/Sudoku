@@ -12,9 +12,8 @@ public class SudokuVerifier {
 	
 	
 	public int verify(String candidateSolution) {
-		// returns 1 if the candidate solution is correct
-		int checksum = 0;
-		if (verifyStringLength(candidateSolution)) return -1;
+		// returns 0 if the candidate solution is correct
+		if (verifyRule1(candidateSolution)) return -1;
 		return 0;
 			}
 
