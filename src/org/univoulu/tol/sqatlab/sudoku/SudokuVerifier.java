@@ -167,6 +167,8 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 			for(int count=1; count<10;count++){
 				if(line[l] == count){
 					allNumbersCheck [count-1]=count;
+				}else{
+					allNumbersCheck [count-1]=99;
 				}
 			}
 		}
