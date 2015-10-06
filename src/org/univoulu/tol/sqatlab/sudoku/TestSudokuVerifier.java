@@ -105,4 +105,9 @@ public class TestSudokuVerifier {
 		
 		assertEquals (-1, verifier.verify(negativeSolution));
 	}
+	@Test
+	public void testverify_failRule2_returnMinus2() {
+		
+		assertEquals (-2, verifier.verify(negativeSolution));
+	}
 }

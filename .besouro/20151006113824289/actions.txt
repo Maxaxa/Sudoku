@@ -161,3 +161,10 @@ CompilationAction 1444124150957 TestSudokuVerifier.java
 CompilationAction 1444124160185 TestSudokuVerifier.java
 RefactoringAction 1444124193381 TestSudokuVerifier.java RENAME negativSolution=>String negativeSolution FIELD
 EditAction 1444124201215 TestSudokuVerifier.java 3471 17 20 16
+UnitTestCaseAction 1444124207181 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444124207182 TestSudokuVerifier OK
+RefactoringAction 1444124218417 TestSudokuVerifier.java ADD void testverify_failRule1_returnMinus1()/2 METHOD
+RefactoringAction 1444124224558 TestSudokuVerifier.java RENAME testverify_failRule1_returnMinus1()/2=>void testverify_failRule_returnMinus1() METHOD
+RefactoringAction 1444124225564 TestSudokuVerifier.java RENAME testverify_failRule_returnMinus1()=>void testverify_failRule2_returnMinus1() METHOD
+RefactoringAction 1444124232575 TestSudokuVerifier.java RENAME testverify_failRule2_returnMinus1()=>void testverify_failRule2_returnMinus2() METHOD
+EditAction 1444124241072 TestSudokuVerifier.java 3596 18 21 17
