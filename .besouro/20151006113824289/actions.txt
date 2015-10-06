@@ -235,3 +235,10 @@ EditAction 1444124874513 SudokuVerifier.java 5262 13 46 0
 UnitTestCaseAction 1444124877680 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444124877681 TestSudokuVerifier FAIL
 EditAction 1444124963088 SudokuVerifier.java 5262 13 46 0
+UnitTestCaseAction 1444124964092 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444124964093 TestSudokuVerifier OK
+RefactoringAction 1444124981750 TestSudokuVerifier.java ADD void testverify_failRule3_StringIncorrectRow_returnMinus3()/2 METHOD
+RefactoringAction 1444124993272 TestSudokuVerifier.java RENAME testverify_failRule3_StringIncorrectRow_returnMinus3()/2=>void testverify_failRule4_StringIncorrectRow_returnMinus3() METHOD
+RefactoringAction 1444125000785 TestSudokuVerifier.java RENAME testverify_failRule4_StringIncorrectRow_returnMinus3()=>void testverify_failRule4_StringIncorrectColumn_returnMinus3() METHOD
+RefactoringAction 1444125004795 TestSudokuVerifier.java RENAME testverify_failRule4_StringIncorrectColumn_returnMinus3()=>void testverify_failRule4_StringIncorrectColumn_returnMinus4() METHOD
+EditAction 1444125023917 TestSudokuVerifier.java 4004 20 23 19
