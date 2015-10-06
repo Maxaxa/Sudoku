@@ -114,3 +114,6 @@ RefactoringAction 1444123540416 TestSudokuVerifier.java RENAME testverify_noSolu
 EditAction 1444123542280 TestSudokuVerifier.java 3338 16 19 15
 RefactoringAction 1444123558443 TestSudokuVerifier.java RENAME testverify_correctSolution_return1()=>void testverify_correctSolution_return0() METHOD
 EditAction 1444123597360 TestSudokuVerifier.java 3338 16 19 15
+UnitTestCaseAction 1444123608108 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444123608108 TestSudokuVerifier FAIL
+EditAction 1444123658193 SudokuVerifier.java 5081 13 48 0
