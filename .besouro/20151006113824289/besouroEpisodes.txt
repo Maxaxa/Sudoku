@@ -187,3 +187,15 @@
 1444123259251 refactoring 2A 1154 true
 1444123259252 production 1 1154 false
 1444123277186 regression 1 0 true
+1444123316437 refactoring 3 15 true
+1444123316438 refactoring 1B 15 true
+1444123316439 refactoring 3 15 true
+1444123316440 refactoring 2B 15 true
+1444123316441 refactoring 3 15 true
+1444123316442 refactoring 3 15 true
+1444123316443 refactoring 1B 15 true
+1444123316444 refactoring 2B 15 true
+1444123316445 regression 1 15 true
+1444123323938 regression 1 0 true
+1444123328399 regression 1 0 true
+1444123332180 regression 1 0 true
