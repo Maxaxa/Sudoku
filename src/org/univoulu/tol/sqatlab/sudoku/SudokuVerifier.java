@@ -172,7 +172,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				}
 			}
 		}
-		System.out.println(Arrays.toString(sortArray));
+		//System.out.println(Arrays.toString(sortArray));
 		return sortArray;
 	}
 
