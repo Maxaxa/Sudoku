@@ -100,4 +100,9 @@ public class TestSudokuVerifier {
 	public void testVerfyRule4_incorrectColumn_returnFalse(){
 		assertEquals (false, verifier.verifyRule4(incorrectColumn));
 	}
+	@Test
+	public void testverify_failRule1_returnMinus1() {
+		
+		assertEquals (-1, verifier.verify(negativeSolution));
+	}
 }
