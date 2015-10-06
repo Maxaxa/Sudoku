@@ -167,7 +167,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		for(int l=0; l<line.length;l++){
 			for(int count=1; count<10;count++){
 				if(line[l] == count){
-					System.out.println(line[l] +"  "+ count);
+					//System.out.println(line[l] +"  "+ count);
 					sortArray [count-1]=count;
 				}
 			}
@@ -185,9 +185,9 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		for(int i = 0; i<rowLength;i++){
 			for(int j = 0; j <columnLength;j++){
 				column [j] = digitArray[j][i];
-				System.out.print(column[j]);
+			//	System.out.print(column[j]);
 			}
-			System.out.println();
+		//	System.out.println();
 			allNumbersCheck = sortNineDigitSingleArray(column);
 			
 			if(!checkSortedArrayForNumber1To9(allNumbersCheck)){
