@@ -71,7 +71,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		if(!verifyStringLength(candidateSolution)) return false;
 		for (int i = 0; i<candidateSolution.length(); i++){
 			if(!Character.isDigit(candidateSolution.charAt(i))){
-				digitIsRight = false;
+				return false;
 			}
 		}
 		digitIsRight = isDigitPositive(candidateSolution, digitIsRight);
