@@ -12,3 +12,16 @@ UnitTestSessionAction 1444120852889 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444120861022 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444120861023 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testVerfyRule4_incorrectString_returnFalse FAIL
 EditAction 1444120985950 TestSudokuVerifier.java 3224 16 19 15
+UnitTestCaseAction 1444120987052 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444120987052 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444120993201 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444120993202 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testVerfyRule4_incorrectString_returnFalse FAIL
+RefactoringAction 1444121159809 TestSudokuVerifier.java ADD String incorrectRow/2 FIELD
+RefactoringAction 1444121163322 TestSudokuVerifier.java RENAME incorrectRow/2=>String incorrectC FIELD
+RefactoringAction 1444121164343 TestSudokuVerifier.java RENAME incorrectC=>String incorrectCu FIELD
+RefactoringAction 1444121165860 TestSudokuVerifier.java RENAME incorrectCu=>String incorrectCulomn FIELD
+RefactoringAction 1444121178903 TestSudokuVerifier.java RENAME incorrectCulomn=>String incorrectColomn FIELD
+RefactoringAction 1444121179922 TestSudokuVerifier.java RENAME incorrectColomn=>String incorrectCo0lomn FIELD
+RefactoringAction 1444121180938 TestSudokuVerifier.java RENAME incorrectCo0lomn=>String incorrectColomn FIELD
+RefactoringAction 1444121182457 TestSudokuVerifier.java RENAME incorrectColomn=>String incorrectColumn FIELD
+EditAction 1444121201087 TestSudokuVerifier.java 3336 16 19 15
