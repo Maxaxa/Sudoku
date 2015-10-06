@@ -174,17 +174,17 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 	public Object verifyRule4(String candidateSolution) {
 		boolean digitIsRight = true;
-		int [] rows = new int[rowLength];
+		int [] column = new int[columnLength];
 		int[][] digitArray = solutionToTwoDimensianalIntArray(candidateSolution);
 		
 		int[] allNumbersCheck = new int[9];
 		for(int i = 0; i<rowLength;i++){
 			for(int j = 0; j <columnLength;j++){
-				rows [j] = digitArray[j][i];
-				System.out.print(rows[j]);
+				column [j] = digitArray[j][i];
+				System.out.print(column[j]);
 			}
 			System.out.println();
-			sortNineDigitSingleArray(rows, allNumbersCheck);
+			sortNineDigitSingleArray(column, allNumbersCheck);
 			if(!checkSortedArrayForNumber1To9(allNumbersCheck)){
 				return false;
 			}
