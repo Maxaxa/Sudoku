@@ -242,3 +242,6 @@ RefactoringAction 1444124993272 TestSudokuVerifier.java RENAME testverify_failRu
 RefactoringAction 1444125000785 TestSudokuVerifier.java RENAME testverify_failRule4_StringIncorrectRow_returnMinus3()=>void testverify_failRule4_StringIncorrectColumn_returnMinus3() METHOD
 RefactoringAction 1444125004795 TestSudokuVerifier.java RENAME testverify_failRule4_StringIncorrectColumn_returnMinus3()=>void testverify_failRule4_StringIncorrectColumn_returnMinus4() METHOD
 EditAction 1444125023917 TestSudokuVerifier.java 4004 20 23 19
+UnitTestCaseAction 1444125024932 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444125024932 TestSudokuVerifier FAIL
+EditAction 1444125044505 SudokuVerifier.java 5324 13 46 0

@@ -19,6 +19,8 @@ public class SudokuVerifier {
 			return -2;
 		}else if (!verifyRule3(candidateSolution)){
 				return -3;
+		}else if (!verifyRule4(candidateSolution)){
+			return -4;
 		}else{
 			return 0;
 		}
