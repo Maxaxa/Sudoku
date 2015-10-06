@@ -104,3 +104,9 @@ UnitTestSessionAction 1444123328399 Rerun org.univoulu.tol.sqatlab.sudoku.TestSu
 UnitTestCaseAction 1444123332180 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444123332180 TestSudokuVerifier.testVerfyRule4_correctSolution_returnTrue OK
 EditAction 1444123341168 SudokuVerifier.java 5088 13 48 0
+UnitTestCaseAction 1444123342063 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444123342065 TestSudokuVerifier.testVerfyRule4_correctSolution_returnTrue OK
+UnitTestCaseAction 1444123366253 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444123366253 TestSudokuVerifier OK
+RefactoringAction 1444123536406 TestSudokuVerifier.java RENAME testverify_noSolution_return1()=>void testverify_noSolution_return0() METHOD
+EditAction 1444123536616 TestSudokuVerifier.java 3338 16 19 15

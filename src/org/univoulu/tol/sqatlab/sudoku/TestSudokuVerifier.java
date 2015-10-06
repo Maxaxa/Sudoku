@@ -30,7 +30,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testverify_noSolution_return1() {
+	public void testverify_noSolution_return0() {
 		
 		assertEquals (0, verifier.verify(noSolution));
 	}
