@@ -36,3 +36,8 @@ UnitTestCaseAction 1444121366656 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444121366657 TestSudokuVerifier FAIL
 EditAction 1444121413604 SudokuVerifier.java 4943 13 46 0
 EditAction 1444121422306 SudokuVerifier.java 4954 13 46 0
+RefactoringAction 1444121454622 SudokuVerifier.java RENAME sortNineDigitSingleArray(int=>int METHOD
+RefactoringAction 1444121462149 SudokuVerifier.java RENAME sortNineDigitSingleArray()=>int METHOD
+RefactoringAction 1444121464674 SudokuVerifier.java RENAME sortNineDigitSingleArray(int=>int METHOD
+RefactoringAction 1444121466190 SudokuVerifier.java RENAME sortNineDigitSingleArray()=>int METHOD
+EditAction 1444121481993 SudokuVerifier.java 4953 13 44 0

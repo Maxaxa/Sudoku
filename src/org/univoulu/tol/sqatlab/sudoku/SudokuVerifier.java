@@ -162,10 +162,10 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		return digitIsRight;
 	}
 
-	public int[] sortNineDigitSingleArray(int[] rows, int[] allNumbersCheck) {
-		for(int r=0; r<9;r++){
+	public int[] sortNineDigitSingleArray(int[] line, int[] allNumbersCheck) {
+		for(int l=0; l<9;++){
 			for(int count=1; count<10;count++)
-				if(rows[r] == count){
+				if(line[l] == count){
 					allNumbersCheck [count-1]=count;
 			}
 		}
