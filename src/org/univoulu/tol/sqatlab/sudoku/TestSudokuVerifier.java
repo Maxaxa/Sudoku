@@ -24,9 +24,9 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testverify_correctSolution_return1() {
+	public void testverify_correctSolution_return0() {
 		
-		assertEquals (1, verifier.verify(correctSolution));
+		assertEquals (0, verifier.verify(correctSolution));
 	}
 	
 	@Test

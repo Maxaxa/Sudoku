@@ -112,3 +112,5 @@ RefactoringAction 1444123536406 TestSudokuVerifier.java RENAME testverify_noSolu
 EditAction 1444123536616 TestSudokuVerifier.java 3338 16 19 15
 RefactoringAction 1444123540416 TestSudokuVerifier.java RENAME testverify_noSolution_return0()=>void testverify_noSolution_return() METHOD
 EditAction 1444123542280 TestSudokuVerifier.java 3338 16 19 15
+RefactoringAction 1444123558443 TestSudokuVerifier.java RENAME testverify_correctSolution_return1()=>void testverify_correctSolution_return0() METHOD
+EditAction 1444123597360 TestSudokuVerifier.java 3338 16 19 15
