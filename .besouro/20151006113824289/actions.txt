@@ -84,3 +84,7 @@ UnitTestCaseAction 1444123087418 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444123087419 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testVerfyRule4_incorrectString_returnFalse FAIL
 RefactoringAction 1444123188703 SudokuVerifier.java RENAME sortNineDigitSingleArray(int=>int METHOD
 EditAction 1444123235913 SudokuVerifier.java 5122 13 48 0
+CompilationAction 1444123236401 SudokuVerifier.java
+CompilationAction 1444123247250 SudokuVerifier.java
+CompilationAction 1444123247399 SudokuVerifier.java
+EditAction 1444123253594 SudokuVerifier.java 5088 13 48 0
