@@ -98,6 +98,6 @@ public class TestSudokuVerifier {
 	}
 	@Test
 	public void testVerfyRule4_incorrectString_returnFalse(){
-		assertEquals (false, verifier.verifyRule4(incorrectSolution));
+		assertEquals (false, verifier.verifyRule4(incorrectRow));
 	}
 }
