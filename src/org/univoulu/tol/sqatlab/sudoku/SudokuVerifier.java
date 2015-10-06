@@ -13,10 +13,14 @@ public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
-		if (!verifyRule1(candidateSolution)) return -1;
-		else
-		return 0;
-			}
+		if (!verifyRule1(candidateSolution)){
+			return -1;
+		}else if(!verifyRule2(candidateSolution)){
+			return -2;
+		}else{
+			return 0;
+		}
+	}
 
 	public boolean verifyStringLength(String candidateSolution) {
 		int correctStringLength = 81;

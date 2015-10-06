@@ -168,3 +168,6 @@ RefactoringAction 1444124224558 TestSudokuVerifier.java RENAME testverify_failRu
 RefactoringAction 1444124225564 TestSudokuVerifier.java RENAME testverify_failRule_returnMinus1()=>void testverify_failRule2_returnMinus1() METHOD
 RefactoringAction 1444124232575 TestSudokuVerifier.java RENAME testverify_failRule2_returnMinus1()=>void testverify_failRule2_returnMinus2() METHOD
 EditAction 1444124241072 TestSudokuVerifier.java 3596 18 21 17
+UnitTestCaseAction 1444124241956 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444124241958 TestSudokuVerifier FAIL
+EditAction 1444124344511 SudokuVerifier.java 5199 13 46 0
