@@ -180,8 +180,8 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		int[] allNumbersCheck = new int[columnLength];
 		for(int i = 0; i<rowLength;i++){
 			for(int j = 0; j <columnLength;j++){
-				column [j] = digitArray[j][i];
-				System.out.print(column[j]);
+				column [i] = digitArray[j][i];
+				System.out.print(column[i]);
 			}
 			System.out.println();
 			allNumbersCheck = sortNineDigitSingleArray(column, allNumbersCheck);
