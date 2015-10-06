@@ -184,7 +184,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 				System.out.print(column[j]);
 			}
 			System.out.println();
-			sortNineDigitSingleArray(column, allNumbersCheck);
+			allNumbersCheck = sortNineDigitSingleArray(column, allNumbersCheck);
 			if(!checkSortedArrayForNumber1To9(allNumbersCheck)){
 				return false;
 			}
