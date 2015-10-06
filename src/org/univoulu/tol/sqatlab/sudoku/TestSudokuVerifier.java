@@ -110,4 +110,9 @@ public class TestSudokuVerifier {
 		
 		assertEquals (-2, verifier.verify(gridCheck));
 	}
+	@Test
+	public void testverify_failRule3_StringIncorrectRow_returnMinus3() {
+		
+		assertEquals (-3, verifier.verify(incorrectRow));
+	}
 }
