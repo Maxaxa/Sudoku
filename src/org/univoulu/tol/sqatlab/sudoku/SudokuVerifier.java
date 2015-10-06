@@ -14,6 +14,7 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
 		if (verifyRule1(candidateSolution)) return -1;
+		else
 		return 0;
 			}
 
