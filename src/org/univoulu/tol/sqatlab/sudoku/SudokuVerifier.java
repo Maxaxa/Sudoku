@@ -60,6 +60,7 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 	
 	public boolean verifyRule1(String candidateSolution) {
 		boolean digitIsRight = true;
+		if(!verifyStringLength(candidateSolution)) return false;
 		for (int i = 0; i<candidateSolution.length(); i++){
 			if(!Character.isDigit(candidateSolution.charAt(i))){
 				digitIsRight = false;
