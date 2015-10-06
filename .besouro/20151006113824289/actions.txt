@@ -88,3 +88,10 @@ CompilationAction 1444123236401 SudokuVerifier.java
 CompilationAction 1444123247250 SudokuVerifier.java
 CompilationAction 1444123247399 SudokuVerifier.java
 EditAction 1444123253594 SudokuVerifier.java 5088 13 48 0
+UnitTestCaseAction 1444123259251 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444123259251 TestSudokuVerifier OK
+UnitTestCaseAction 1444123277186 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444123277186 Rerun org.univoulu.tol.sqatlab.sudoku.TestSudokuVerifier.testVerfyRule4_incorrectString_returnFalse OK
+RefactoringAction 1444123300761 TestSudokuVerifier.java RENAME testVerfyRule4_incorrectString_returnFalse()=>void testVerfyRule4_incorrect_returnFalse() METHOD
+RefactoringAction 1444123302771 TestSudokuVerifier.java RENAME testVerfyRule4_incorrect_returnFalse()=>void testVerfyRule4_incorrectColumn_returnFalse() METHOD
+EditAction 1444123312038 TestSudokuVerifier.java 3338 16 19 15
