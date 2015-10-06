@@ -201,3 +201,16 @@
 1444123332180 regression 1 0 true
 1444123342065 regression 1 0 true
 1444123366253 regression 1 0 true
+1444123659267 refactoring 2A 122 true
+1444123659268 refactoring 3 122 true
+1444123659269 refactoring 3 122 true
+1444123659270 refactoring 3 122 true
+1444123659271 refactoring 3 122 true
+1444123659272 refactoring 3 122 true
+1444123659273 refactoring 3 122 true
+1444123659274 refactoring 3 122 true
+1444123659275 refactoring 3 122 true
+1444123659276 refactoring 3 122 true
+1444123659277 refactoring 3 122 true
+1444123659278 refactoring 3 122 true
+1444123659279 refactoring 3 122 true
