@@ -98,9 +98,9 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 		boolean digitIsRight = true;
 		 int[][] subGrids = getSubGrids(candidateSolution); 
 		 int [] allNumbersCheck = new int[9];
-		for(int s=0; s<allNumbersCheck.length;s++){
+		for(int s=0; s<subGrids.length;s++){
 		//	System.out.println(Arrays.toString(subGrids[s]));
-			for(int g=0; g<allNumbersCheck.length;g++){
+			for(int g=0; g<subGrids[s].length;g++){
 				for(int count=1; count<10;count++)
 				if(subGrids[s][g] == count){
 					allNumbersCheck[count-1]=count;
