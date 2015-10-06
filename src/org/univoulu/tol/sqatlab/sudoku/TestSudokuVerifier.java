@@ -24,89 +24,89 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testverify_correctSolution_return0() {
+	public void testverify_StringCorrectSolution_return0() {
 		
 		assertEquals (0, verifier.verify(correctSolution));
 	}
 	
 	@Test
-	public void testverify_noSolution_returnMinus1() {
+	public void testverify_StringNoSolution_returnMinus1() {
 		
 		assertEquals (-1, verifier.verify(noSolution));
 	}
 	
 	
 	@Test
-	public void testVerifyStringLength_correctSolution_returnTrue(){
+	public void testVerifyStringLength_StringCorrectSolution_returnTrue(){
 		
 		assertEquals (true, verifier.verifyStringLength(correctSolution));
 		
 	}
 	
 	@Test
-	public void testVerifyStringLength_noSolution_returnTrue(){
+	public void testVerifyStringLength_StringNoSolution_returnTrue(){
 		
 		assertEquals (false, verifier.verifyStringLength(noSolution));
 		
 	}
 	@Test
-	public void testVerifyRule1_OnlyPositiveDigits_correctSolution_return_true(){
+	public void testVerifyRule1_OnlyPositiveDigits_StringCorrectSolution_return_true(){
 	
 			assertEquals (true, verifier.verifyRule1(correctSolution));
 	}
 	@Test
-	public void testVerifyRule1_OnlyPositiveDigits_negativeSolution_return_false(){
+	public void testVerifyRule1_OnlyPositiveDigits_StringNegativeSolution_return_false(){
 		
 			assertEquals (false, verifier.verifyRule1(negativeSolution));
 	}
 	
 	@Test
-	public void testVerfyRule2_correctSolution_returnTrue(){
+	public void testVerfyRule2_StringCorrectSolution_returnTrue(){
 		assertEquals (true, verifier.verifyRule2(correctSolution));
 	}
 	@Test
-	public void testVerfyRule2_incorrectSolution_returnFalse(){
+	public void testVerfyRule2_StringIncorrectSolution_returnFalse(){
 		assertEquals (false, verifier.verifyRule2(incorrectSolution));
 	}
 	@Test
-	public void getSubGrid_gridCeck_subGridTopLeft_return123123123(){
+	public void getSubGrid_StringGridCeck_subGridTopLeft_return123123123(){
 	int[][] subGrids= verifier.getSubGrids(gridCheck);
 		assertEquals ("[1, 2, 3, 1, 2, 3, 1, 2, 3]", Arrays.toString(subGrids[0]));
 		
 	}
 	@Test
-	public void getSubGrid_gridCeck_subGridTopMid_return456456456(){
+	public void getSubGrid_StringGridCeck_subGridTopMid_return456456456(){
 	int[][] subGrids= verifier.getSubGrids(gridCheck);
 		assertEquals ("[4, 5, 6, 4, 5, 6, 4, 5, 6]", Arrays.toString(subGrids[1]));
 	}
 	@Test
-	public void getSubGrid_gridCeck_subGridBottomRight_return789789789(){
+	public void getSubGrid_StringGridCeck_subGridBottomRight_return789789789(){
 	int[][] subGrids= verifier.getSubGrids(gridCheck);
 		assertEquals ("[7, 8, 9, 7, 8, 9, 7, 8, 9]", Arrays.toString(subGrids[8]));
 	}
 	@Test
-	public void testVerfyRule3_correctSolution_returnTrue(){
+	public void testVerfyRule3_StringCorrectSolution_returnTrue(){
 		assertEquals (true, verifier.verifyRule3(correctSolution));
 	}
 	@Test
-	public void testVerfyRule3_incorrectRow_returnFalse(){
+	public void testVerfyRule3_StringIncorrectRow_returnFalse(){
 		assertEquals (false, verifier.verifyRule3(incorrectRow));
 	}
 	@Test
-	public void testVerfyRule4_correctSolution_returnTrue(){
+	public void testVerfyRule4_StringCorrectSolution_returnTrue(){
 		assertEquals (true, verifier.verifyRule4(correctSolution));
 	}
 	@Test
-	public void testVerfyRule4_incorrectColumn_returnFalse(){
+	public void testVerfyRule4_StringIncorrectColumn_returnFalse(){
 		assertEquals (false, verifier.verifyRule4(incorrectColumn));
 	}
 	@Test
-	public void testverify_failRule1_returnMinus1() {
+	public void testverify_failRule1_StringNegativeSolution_returnMinus1() {
 		
 		assertEquals (-1, verifier.verify(negativeSolution));
 	}
 	@Test
-	public void testverify_failRule2_returnMinus2() {
+	public void testverify_failRule2_StringGridCheck_returnMinus2() {
 		
 		assertEquals (-2, verifier.verify(gridCheck));
 	}
