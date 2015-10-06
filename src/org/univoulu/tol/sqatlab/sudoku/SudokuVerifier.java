@@ -164,9 +164,10 @@ public int[][] solutionToTwoDimensianalIntArray(String candidateSolution){
 
 	public int[] sortNineDigitSingleArray(int[] line, int[] allNumbersCheck) {
 		for(int l=0; l<line.length;l++){
-			for(int count=1; count<10;count++)
+			for(int count=1; count<10;count++){
 				if(line[l] == count){
 					allNumbersCheck [count-1]=count;
+				}
 			}
 		}
 		System.out.println(Arrays.toString(allNumbersCheck));
